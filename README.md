@@ -14,4 +14,12 @@ If you haven't install any package, maybe run the cells after you install the pa
 
 - Survey_v4.ipynb : random split the dataframe into the training and testing dataset. Use SentiWordnet from nltk, also use nltk SentimentAnalyzer to see different accuracy.
 
+- Survey_v5.ipynb -  random split the dataframe into the training and
+testing dataset. Use NLTK VADER Sentiment Intensity Analyzer to check
+the accuracy.
+
+- Survey_v6.ipynb -  random split the dataframe into the training and
+testing dataset. Create unigram classifier and bigram classifier, and
+compare the accuracy.
+
 NOTE: since the dataset is random, so sometimes the accuracy is high, sometimes is relatively low. But the range is from 0.6 to 0.9 (can accept the model)
