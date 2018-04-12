@@ -1,0 +1,763 @@
+,survey,subject,comment
+0,Ways to hide helper function definitions (or easier ways to import functions from notebooks). But those might be bad practices,function,neutral
+1,lazyness,function,neutral
+2,"Having to setup a Jupyter server in a particular folder location before opening up a file (and then only having access to files beneath that folder). I wish I could navigate my computer just as I do with a File explorer, with search and preview options.   ",function,neutral
+3,"- a standard option of converting the notebook to html, pdf,... with or without code cells, input/output prompts.  - easy integration in a static website (e.g. sphinx, ...)  where that static website is used as a sort of reporting tool - when converting to a certain format (rst, md, ...) the rendering of the output (e.g. pandas dataframes) also in that format provided the package has implemented this (e.g. pandas dataframes: in te notebook html representation, when converted to markdown a markdown representation,...) ",function,neutral
+4,Mainly two missing features: 1. Collapsable sections 2. Multi-cell selection / copy-cut-paste,function,neutral
+5,Maybe figure out how to schedule automated execution of notebooks?,performance,neutral
+6,Don't use it to teach all of my courses (yet).,function,neutral
+7,Browser becomes unresponsive when I start a too intensive computation.  Poor integration with my preferred code editors (pycharm or vim).  ,performance,negative
+8,real time collaboration,time,neutral
+9,My coworkers do not use them. Keybindings clash with vimperator.,function,negative
+10,git integration,performance,neutral
+11,Corporate IT policy Colleagues' lack of knowledge of PyData stack,function,negative
+12,"It is very easy to do exploratory computing, but not so easy to persist results. I work in computational quantum physics, and in my ""old"" workflows, e.g., with Fortran codes, the computation and analysis were usually well-separated: The results from (potentially long-running) simulations were saved as text files, and then analyzed/plotted with, e.g., gnuplot.  Jupyter Notebook makes this more convenient by allowing me combine simulation and analysis in a single notebook without the intermediate step of saving text files and reading the data again. However, this also makes it much easier to ""lose"" results that only ever existed as data, but were not written to files. Going back to writing text files for all of the possibly interesting output would be a step back regarding the interactivity, so an easy way to save program state or something similar would be great. I realize this is not directly within the scope of the Jupyter Notebook, as it corresponds to a general persistence solution for Python, but it's definitely a pain point that is made more relevant by the dynamic nature of the Notebook.",function,positive
+13,not too easy to integrate into a git workflow (diffs don't look nice and it is hard to see what has changed),function,neutral
+14,"Poor experience opening notebooks in arbitrary locations, e.g., not in the /home tree, as there's no ""double-click file to start jupyter notebook"" feature (yet, I'm hoping)",function,negative
+15,"IDE capabilities: debugging UI, refactorings,...",function,positive
+16,working on notebooks collaboratively,function,neutral
+17,Lack of multi-cell copy/paste (until now). Difficulties with version control and large notebooks. Poor documentation in general. Relatively frequent changes to the notebook format.,function,negative
+18,Hub support for Windows. Better kernel reliability on Windows.,performance,positive
+19,"Improved workflow to create reports with it. Just being able to cite papers from a bibtex file, spellchecking, reordering of chapters would be nice.",function,positive
+20,"Mostly, the fact that not many colleagues, collaborators and customers use it or are familiar with it.",function,neutral
+21,Time.,time,neutral
+22,Documentation on how to use scripts at launch like before and configure the thing.  ,function,positive
+23,"Lack of proper debugging tools (comparable to e.g. Eclipse IDE, Visual Studio or Matlab).",function,neutral
+24,"I'm part of an analytic team that frequently works with sensitive data like medical data covered by HIPAA. Jupyter Hub might be ideal for us except that our IT management is unsure of its applicability in a secure setting. It might also need additional features related to user workspaces, definition of projects and analytic teams, and user-defined data and workbook sharing between projects and teams. ",performance,positive
+25,Doesn't interact with git too well with lots of unimportant / temporary changes distracting from the real differences in a commit.,function,negative
+26,"I want Jupyter to act like a normal text editor app in which I can easily open files, without the hassle of starting it from the console in the right place. Simple double click opening for all ipynbs please ",function,positive
+27, ,function,neutral
+28,- tighter integration with version control - cross project/directory search of notebooks - deployable notebooks - persistent widgets ,function,neutral
+29,I use it despite the pain points.,function,negative
+30,Lacking nice github integration Interactive figures are cumbersome (at least I haven't found the right tools),function,neutral
+31,No code refactoring. Auto-complete gets super confused with indentations,function,neutral
+32,"Give notebooks more editors/ide functionnality: easier file browsing, editing, serach and replace...",function,positive
+33,Ability to easily move library code from notebooks to modules.,function,neutral
+34, ,function,neutral
+35,"I haven't worked out how to integrate storing notebooks into my normal workflow. Do I store notebooks in the directory struction with my other data/notebooks.  How do I ensure that, by default, the output is visilble to non-notebook users. Do I end up with lots of notebook servers in different directories",function,positive
+36,Code editing is inferior to IDEs,function,negative
+37,"""cognitive load"" of having too many steps: start ""ipython notebook"" (in a particular directory, which then almost uselessly takes over that terminal session), find the right notebook, start it up. I imagine that for most users the server is usually irrelevant. Why can't I just open/start a notebook?  (Note on Q3, below: do you really mean ""Jupyter notebook"" only, or ""ipython"", too? I am answering for the latter.",function,neutral
+38,Nothing ,function,neutral
+39,I am studying Jupyter Notebook at the college and I see that it will be very usefull to me at work.,function,positive
+40,"In Mathematica, for instance, you can collapse sections, subsections, and even cells. Make that possible in Jupiter Notebook, too, please.",function,negative
+41,No standardised solution for version control (I think there are a few ad-hoc tools out there at present but would rather learn/use something with momentum behind it).  Unexpected scrolling between cells when move cursor/focus or execute a cell (particularly when using Firefox and when have large cells).  Difficult to keep on top of API changes and developments in associated components e.g. widgets; ipython-dev and jupyter mailing lists can help here but useful info tends to get rather buried amongst things pertaining only to dedicated developers (and sysadmins interested in jupyterhub configs).  (I still love the project to bits though :-)),function,positive
+42,"Sometimes I want to just play around with ideas, without storing them. Creating a notebook always means that a file with all the code remains until I manually delete it.",function,neutral
+43,"Awkwardness in use cf. regular desktop editors - e.g. basic shortcuts for running a cell and making a new one vs. making a markdown one  Difficulty with installing (vast majority of) add-ons etc, no standardised way just getting off repos on GitHub and debugging the frequent errors (e.g. recently had to look in issues log of repo for how to install nbextensions properly when readme didnt guide right; rpy2 update changed the guidance on how to install and did not work so after a few hours I gave up trying to get R inside Python kernel NB; xonsh kernel did not work with the latest Jupyter version). I really like Jupyter and do my best to contribute with these issues when they come up but it feels rather in development still (which is totally fine but not great for my productivity)  ...also the fact that I'm fairly new to using Jupyter NBs probably holds me back :-)",function,negative
+44,"The file browser feels clunky,  and I REALLY wish the checkpoint feature inside the notebooks would be implemented more completely. Autosaving is great, but not if we can only revert to the last save state. More save history!",function,negative
+45, ,function,neutral
+46,I mostly write libraries.  Notebooks are not the right artifact for non-interactive computing.,performance,neutral
+47,I use the notebook for prototyping python code. I would love the ability to live-edit a module in one cell and interact with it in others.,function,positive
+48,"It doesn't do SAS,  which is about half my work, the other half is Python. ",performance,positive
+49,"Development environment, but it is about as regular as can be",performance,neutral
+50,"The one dimensional interface.  It seems designed to be a single document rather than an complete interface. If you think about other powerful and ubiquitous software platforms, like Adobe Illustrator or Matlab, they often are designed around panels that expose useful information or interaction.  For example, an editor, variable browser, command line, etc.  I wish there were also multiple views within the Jupyter Notebook.",function,positive
+51,I would appreciate to be also able to launch ipython notebook in a separate gui than the browser.,design,positive
+52,"I don't actually use it for work, but for classes. If I did, thought, Jupyter would prove itself a great tool.",function,positive
+53,"Git integration, CSS themes",performance,neutral
+54, ,function,neutral
+55,"better connections to external DBs, easier interact widgets.",function,positive
+56,Installation / initialization of Jupyter,performance,neutral
+57,I find it difficult to collaborate with colleagues who are all using Git. It is much easier to do this with plain Python files.,function,neutral
+58,already a part of my workflow. Being able to convert from notebook to script is very important but I wish I could just run my notebook in production mode.,function,positive
+59,"They are difficult to use with version control, and I prefer development in a text editor over development in a browser window.",design,neutral
+60,"Sharing results in something like excel, which is still the de facto among our analysts, is sometimes difficult. ",function,positive
+61,The ability to easily add your own hooks/scripts to extend functionality. This is fairly complex at this point.,performance,neutral
+62,Integration with version control and production code,function,neutral
+63, ,function,neutral
+64,"lack of built-in versioning / organizational tools in the UI, need to go to the command line for configuration, and the fact that those configurations are difficult to make global for all of my users.",function,negative
+65,static checking of code (ala pyflakes)  better integration with version control  better editor inside the code blocks,function,positive
+66,Version control with git. Cell merging. Cell grouping and hiding. Vim key bindings. ,function,neutral
+67,I am only a beginner programmer,function,neutral
+68,"My work group lives and breathes in Excel, so once we move a lot of our data into a more usable format than SAP, we might be able to do in a notebook setting",function,positive
+69,The only time I don't use it is when I need to run a script that needs to go for several hours on end.  Or for tasks that I need to pass along to others.,function,neutral
+70,- Not available on all my computing environments and I have been struggling with jupyterhub setup. - No easy workflow with a version control system such as git .  Need a markup language in comments to  create a mapping between notebook cells and traditional flat files. - Detect running dependencies between cells.  Warn when a variable is reassigned between cells .   This might indicate a cell cannot be refreshed without refreshing the previous one.,function,negative
+71,"Challenge setting up other language integrations aside Python. I tried the IScala integration and had a lot difficulty so went back to using the normal Scala REPL. I will like to be able to use R, Julia and Scala with Jupyter eventually also.",function,neutral
+72,"I prefer developing in a full IDE, like PyCharm.",function,positive
+73,I don't use Python often enough,function,positive
+74,No automatic collaboration. Kernel crashing under memory stress where python thorough command line does not. ,function,negative
+75,It doesn't work well with standard version control tools because one line of code doesn't correspond to one line in the notebook file  It throws away 30 years of text editor development by replacing a real editor like vim or emacs with a HTML text area.,function,positive
+76,I don't spent all the time coding/analysing ,time,neutral
+77,"Lack of a project view, inter-notebook copy/pasting of cells.  Not being able to export a Notebook removing code cells but leaving outputs.",function,negative
+78,"Number one complaint I have had is the lack of find and replace, autocomplete, and other text-editor style tools. I understand this may not really be the point of jupyter nootbooks, but I find myself cutting code, pasting to a text editor, and pasting back in all the time. In my limited experience (could easily be wrong about this), it doesn't have great integration with virtualenv, so it's a bit of a headache to switch from one env to another and reconfigure jupyter. On the nitpick side, translation of magic commands to equivalent python commands would be amazing when exporting to a .py file. ",function,negative
+79,"I'd like to use the jupyterhub with my colleagues but it is available only on linux and we live, unfortunately, in a win environment ",performance,positive
+80,"Nothing, it's just not always the appropriate tool.",function,positive
+81,"I prefer to use a real editor (vim, emacs) and a terminal for my Python scripts, not small boxes.",design,positive
+82,"It's not as nice an 'editor' as a 'proper' programmers text editor (such as Emacs, Sublime, Atom etc).  It can be tricky to scroll up and down and deal with large cells with lots of code.  It's difficult to run an IPython Notebook server that has support for both Py2 and Py3 kernels - ideally, there should be some way to integrate with conda so that you can easily start kernels in any conda environment.  Similarly, I often end up with multiple 'ipython notebook' commands (from the Terminal) running at once, as I want them to be in multiple different directories and in multiple conda environments. Combining this with the previous point: it'd be great if I could have it running as a service (or something similar), and then could just easily create a kernel from any conda environment, and navigate to the right folder - and have it all 'just work' without having to run new servers all the time",function,positive
+83,Have to use the browser,design,neutral
+84,I usually use emacs.,design,neutral
+85,I don't know how to run tests. Sometimes not practical with narrow screen (half a screen)  ,design,neutral
+86,"Some issues with NB convert to PDF, the templates for latex seem overly complex.. and no option for simpler, similarly the plug-ins are kind of messed up at the moment, also need 2.11 Scala support",performance,negative
+87,moving between coding snippets in the notebook to making changes in another editor/ide. ,function,neutral
+88,"I strongly use version control, and the workflow of using the notebook with version control is odd.",function,negative
+89,Dealing with more than one programming language.,performance,neutral
+90,In my setup - I create interactive notebooks for analysts to use - I have some code (that will run and create a button) that will hid all the input cells (since the code can get long) and just shows the outputs which are ipython widgets and bokeh plots.  While I get along with it - if there are others like me perhaps that could be one of the buttons on the notebook tool bar (to toggle the input cells).,function,neutral
+91,Collaboration and versionning capabilities ,time,positive
+92,"* The fact that it requires opening a new browser window (I might not want to open a browser at all, or add a tab inside my current/default browser) * The volatility of the environment (it's not easy to have an overview of how many notebooks are open, and their working folder etc.)",function,negative
+93,The difficulty with using the same code in the notebook and running it from the command line. Inability to put code in the notebook under version control (git). ,function,negative
+94,"Not clear what needs to be installed and what versions, particularly WRT widgets & extensions.  I'm very excited about dashboards and can appreciate how fluid things are.  Finding it difficult figuring out where & how to jump in.",function,neutral
+95,I don't have the time. I don't use it at work.,function,positive
+96,"Version control. Documentation in some specific topics (js extensions, installation and packaging of nb extensions, nbconvert,...)",function,neutral
+97,Support for multiple kernels (especially other languages) is super. Getting it to work is still buggy. The Conda distribution is getting better and better.,performance,positive
+98,IMO Jupyter is still publication tool rather then programming tool.  (Databricks notebooks look better).  I would prefer way how to better roll up code.,function,positive
+99,Debugging and refactoring ,function,neutral
+100,"A few very minor things cause some issues.  If I could auto-add a title when I create the notebook, or if I could mandate being prompted for one, that would be nice.  Additionally, since I am often developing libraries with C components which can't be reloaded (i.e., yt), it can be cumbersome to do repeated, rapid testing in the notebook.  (I haven't yet upgraded to the new version that has this.)  One last thing would be easier integration of modules for things like storing of notebooks (i.e., bookstore) into a given profile.",function,positive
+101,A console is usually faster for what I need,design,positive
+102,It doesn't make coffee,function,neutral
+103,"I spend most of my time doing library/application development, and mostly don't need to save records of my work. I use notebooks as scratch areas and one-off things.",function,neutral
+104,No need to use more often.,function,neutral
+105,Forced vertical follow of everything ,function,neutral
+106,Nothing. ,function,neutral
+107,"- full(er) latex support including cross references for figs, eqns, etc.  - a pure text format for version control / diffs and to allow working from text editor (I strongly dislike working in browser) - ability to output to PDF or a nice printable format - something like nbviewer but allowing execution of code (or like jupyterhub but without manual uploading) - better default styling or easier customization - better widget (animations) support",function,positive
+108,"The biggest thing I miss when using Jupyter is code completion. The addition of an intellisense-like code completion add-on would be a massive step forward. I'm constantly working in several languages so it's hard to keep all of the syntax for various packages in my brain at all times. I love python, love Jupyter, but the lack of code completion is a very glaring deficit at times. ",function,neutral
+109,"Javascript, D3 support",performance,positive
+110,"Nothing, the ability to combine data analysis and reporting (to .pdf) in a single document is perfect.",function,positive
+111,"It's really good for annotated code and analysis, but it is not the best if all I want is to take regular notes. I understand that's not its main purpose and I'm suggesting it should be. ",function,positive
+112,- I wish I could make them wider on my 2K screen - every notebook opens a Python icon in the OSX dock,function,neutral
+113,I only very recently figured out how to save Jupyter Notebooks in different places (I navigate to my working directory before typing ipython notebook in the command line). Not having flexibility was a major *perceived* hinderance and could be a good thing to address in the documentation for newbies??,function,positive
+114,"Nothing, because I use Jupyter Notebook for calculos and notes. ",function,neutral
+115,more emacs bindings or more shortcuts that are intuitive,function,positive
+116,Need search/find (4.1 when available) Need diff tool for Notebooks ,function,positive
+117,"corporate limitations on work projects, laziness on my part on home projects",performance,neutral
+118,lack of diffing and merge tool. (e.g. nbdiff for previous versions of jupyter),function,negative
+119,Its confusing to run selected portion of code esp when i change something in the function definition. ,function,negative
+120,I use it for hobby projects and only rarely at work. For scientific hobby prokects I use it extensively.,performance,positive
+121,I use it extensively for hobby projects and almost never at work.,performance,positive
+122,Colleagues using Matlab,design,neutral
+123,"It's a bit of a pain to start and stop it. I typically work on different projects in different folders. I bring up a command prompt, cd to the right place, start jupyter, then visit with my browser. Then I need to remember to go back and kill it when I am done. Yes, I could run only one up at my home folder and leave it running all the time. I hate clicking through a giant folder tree to get where I need to be...",function,neutral
+124, ,function,neutral
+125,Notebooks encourage sloppy and non linear programming.,performance,neutral
+126,Still developing my workflow,performance,neutral
+127,"Lack of fully-fledged support for authoring.  Compare to the knitr / Sweave model that is fully integrated into the RStudio editor, with support for authoring publication-ready journal pdfs (code chunk options, caching, inline code blocks, tight integration with templates for LaTeX, html, html5-slideshows, etc).  ",performance,positive
+128,Advances text editing features,function,neutral
+129,"Lack of file management in dashboard, meaning sorting by creation and modification times.",performance,negative
+130,"I don't know if it's some kind of special keystrokes, or mouse gestures, but it often changes modes for the current line, and I've got to manually change them back.",function,neutral
+131,jupyter rocks! maybe full text search?,function,neutral
+132,"I prefer to work in the terminal. Sometimes I pull it up because I need better multiline editing. Rarely I will use it to author a notebook for external consumption (not because it isn't good for that, but just because I don't really need that that often). ",function,positive
+133,I use Jupyter Notebooks for education and it is often difficult to get a quick and simple setup that all my students can use. It can take me several days to figure out how to deploy JupyterHub which takes away time from actually preparing material.,function,negative
+134,Much of my work involves collaborating on development and maintenance of large existing applications.,performance,positive
+135,Being able to download files generated inside a cell in the output.   Uploading a file to the filesystem from a notebook cell.,function,neutral
+136,"Interactive visualisatikn of images, plots etc",function,negative
+137,"As a 'development' environment - as a notebook for analysis - it becomes 'difficult' after 15-20 cells.  By difficult, I mean following branches made - eg a diversion to check some calculation in a few cells - even with headings before and after - could be easier to scroll back to or find.  Some form of outlining (or block folding) would be great.",function,neutral
+138,"When I need to use Python + Pandas to analyse data (I am a researcher). Obviously, this depends on the task I am currently working on. In any event, I am using Jupyter notebook more these days.",function,neutral
+139,"Having to start/stop the server and kernels, having `.ipynb_checkpoints` directories everywhere",time,neutral
+140,Combining code and output in a single file makes it hard to integrate correctly with version control.,function,neutral
+141,"The inability to easily print results as they are seen on the notebook. Especially for my students, having to install LaTex or print from an HTML file is far too difficult just to print out what looks so nice on the screen. In addition, the LaTex looks nothing like the original (with good reason), and this makes it much harder to get what I see into my hand.",function,positive
+142,Integration in version control (git). ,function,neutral
+143,not easy to turn notebook into python modules to make code reusable,function,negative
+144,"Lack of ability to select multiple cells, copy cells between notebooks. Terrible documentation, particularly of interactive widgets.",function,negative
+145,I use whenever I need to and when it's the best tool for the job. Not because there's something wrong with it. ,function,neutral
+146,Easy integration with git,function,positive
+147,"1. For advanced terminal users, the lack of full emacs (or vi I guess) editing modes is annoying. Maybe it is just that the IPython terminal is too awesome already!  2. Version controlling ipynb files is annoying (but possible and I do it for some notebooks).",function,negative
+148,"I would like a better way to export to different report formats.  For instance, RStudio has a great way to ""Create Report"" which opens R markdown file that is pre-loaded with defaults for MS Word, HTML, etc.  Even after trying nbconvert I am not too satisfied with this aspect of Jupyter.",function,positive
+149,Time!!,time,neutral
+150,Difficulty in github synching,function,negative
+151,Live multiuser editing,function,neutral
+152,"ability to script in the notebook so I don't have to have a terminal open for editing standalone code  it would be amazing if a text file could be opened and edited in a cell.  the other problem is absence of something like vim keybindings. The notebook sucks as a text editor.   If there was a vim mode w .vimrc type customization, I'd be in heaven and would likely never not code in jupyter.",function,neutral
+153,The integration of interactive components in the notebook.,function,neutral
+154,"Editing files with large amounts of code is still best done in a text editor, though progress has been made on that front.",design,positive
+155,"Shortcut bindings. I'm most productive in vim, the shortcuts in the notebook just don't feel as fluid. Probably isn't a problem that's solvable, but someone might have a nice solution.",function,positive
+156,1. Difficulties diffing notebooks in version control.  2. Interface issues on mobile devices 3. Slide show usage is still tricky,function,negative
+157,"I would like a way to connect an ipython terminal to the same kernel that backs the notebook.  Sometimes I want to test code before putting it in a cell and other times I want to build up code incrementally, inspecting the results.   A terminal that opened at the bottom of the screen would be nice. (maybe split the space vertically with the documentation browser) ",function,positive
+158,I prefer running R in Emacs.,design,positive
+159,"Recently appointed CTO, so much of my time is currently taken up with strategic matters",time,neutral
+160,"The only thing I don't use it for is for writing scripts and when I don't need plots, which is when I use Sublime.  It is used in prototyping those scripts though.",function,neutral
+161,Missing code editor. I often find myself going back to a text editor and copy-paste code from and to jupyther,function,neutral
+162,No smarter way of storing notes/no obvious hyracki ,function,positive
+163,"Primarily use R, Rstudio is better for R.",function,positive
+164,- Difficulty in maintaining emacs-like editing capabilities  ,design,positive
+165,"* a ""clear and run all"" button to get rid of variable persistence (possible with Kernel > Clear all then run but that's more clicks) * a IPython notebook .app -- it'd be really nice to double click on a notebook and have it open",function,positive
+166,maybe the interface becomes slow if the notebook is too large: entire sections of the notebook could be collapsable so that collapsed sections are not rendered and the notebook stays fully responsive. ,function,neutral
+167,"No easy ""slide making"" button. Hard to turn notebook into a package or library of ""run often"" code",function,neutral
+168,"Nothing, it is a joy and I use it whenever I can.",function,positive
+169,"1. Easy drag and drop for reorganizing cells 2. Good version control - the json ipynb structure and cell number are distractions that prevents user from seeing what code actually changed  3. table of content  4. easy collapse of code / output cells  5. saving python data objects - we need a .Rda / .Rsession / .Rhistory file equivalent in IPython. (sorry this may be too much to ask) 5. Jupyter notebook should allow people to write scripts to control table of content, easy collapsing of code / output cells and the CSS style easily 6. Syntax check, Pep8, pylint, pyflake  7. automatic line wrapping for long lines! Lines longer than 80 characters should be wrapped if the user enables this feature. ",function,neutral
+170,Its hard to navigate long notebooks. ,function,negative
+171,"Easier version control would be great. I tend to have a bunch of copies of notebooks with different dates, which gets cumbersome. I also would like some tools to filter the directory interface and remove files that cannot be opened by jupyter. ",function,positive
+172,Inertia with other tools. ,function,neutral
+173,"The fact that sometimes I need to scroll back and forth a lot between two cells. It would be great if they're was an option to set a cell layout, e. g. two columns of just the super comments in markdown would be great to have ",function,positive
+174,When gigantic debug log message output crashes my browser. ,function,negative
+175,Installing and working with Jupyter on Windows is cumbersome. The built-in web-based text editor is not as powerful as my everyday desktop text editor. ,design,negative
+176,UI sucks,function,negative
+177,It has to be served. I want ipython notebooks to work when I click the file in file explorer,function,positive
+178,No collapsible cells / sections,function,neutral
+179,The lack of facilities for code re-use. I know there are hacks for importing between notebooks and the like but it still doesn't beat a text editor and DVCS when I want to make something that I'll import or make available on GitHub. My notebooks tend to get messy and out of order. Maybe I need to figure out a better workflow but I often feel a traditional console (i.e. qtconsole) is better (along with the aforementioned editor or IDE).,design,positive
+180,I wish there was a way to keep a change log of a notebook,function,neutral
+181,Lack of integrated collaboration. Lack of blogging platform based on notebooks.,time,negative
+182,"I mostly use IPython, not the notebook feature, so this is fine as is.",function,positive
+183,I prefer vi for significant editing.,function,positive
+184,Less than optimal startup friction; Some issues with keeping track of installed packages.  Some issues with reproducibility (changes to cells can be hard to track while working).,function,negative
+185,"Notebooks tend to get big and messy when used as a scratch pad. Auto generated table of contents would help, as would more options for organizing sections and cells. ",function,negative
+186,Interactive debugging is too difficult.  Setting breakpoints by clicking line number and then running in debug mode and having a nice way to inspect memory like Pycharm would be filth!,function,neutral
+187,"- Inability to search across multiple notebooks (e.g., when using as a daily lab notebook) - Hard to separate important from less important stuff when using as a lab notebook",function,neutral
+188,"Comprehensive and reliable undo Editing Notebook structure (move many cells at once) Structure editing, hiding subsections",function,positive
+189,needs a dedicated cell that behaves like a shell,function,positive
+190,"It'd be nice if it could be an even better format for *doing* math, not just writing it up. Not sure exactly what that'd mean, though.  ""Graduating"" notebook code to in-a-package code is also not as seamless as it might be. If the code editor part had vim bindings and other stuff that made it good enough to be a full time editor, that'd be a huge step.",function,positive
+191,Better head switch. I m using different machines to work on the same server . I often loose previous output,function,positive
+192,"integration with editor to get linting, multiple selections.   an inspector panel",design,neutral
+193,"Version control. I find it unstable due to the rapid pace of development, it's hard to keep track.",function,negative
+194,"Installation is hard, so it's hard to spread the gospel.",performance,negative
+195,"It can't integrate several languages within the same notebook. E.g. Some paragraphs with Scala, some others with SQL, etc...",function,neutral
+196,Better native SQL support would mean I wouldn't need to switch to an external tool as much to write ad hoc SQL queries. ,performance,positive
+197,"it would be nice if they had more tools to edit the code in the cell, for example, comment / uncomment a selected area code",function,positive
+198,Need of more libraries on geologic and geophysical data processing in python. ,function,neutral
+199,Lack of 3D plotting capabilities ,function,neutral
+200,"I'm too attached to emacs shortcuts. I haven't tried using emacs-ipython, but soon...",function,neutral
+201,"At times I need to use other work environments (e.g. Atom) when I need other tools, e.g. non-exploratory work.",performance,positive
+202,"It is not vim, and when I make a booboo resulting in an infinite loop, I can't   but have to reach for the Interrupt button in the interface.",function,negative
+203,"I don't fully understand it yet.  I understand what it does and am blown away by little tricks and magic commands.  But coding is my day job and this still feels like a weird way to code.  I'd also like to use it more in teaching kids Python, but I need something like http://trinket.io/ for notebooks.  Hosting it myself is too much work.",function,positive
+204,"1. Speed for larger files jupyter is slow. 2. Trouble with integration with git. 3. Export to LaTeX lacks support for Polish language. I have to tinker with tex file in order to compile it. 4. Creating slides is not very intuitive. 5. Cells grouping only appeared in the recent beta. 6. If I delete a cell, the content is lost forever - it makes work very exiting and dangerous. 7. Drag and drop for cells and group of cells would be nice. ",performance,negative
+205,- cumbersome cell manipulation - support for versioning,function,negative
+206,Having an easiest to connect to distant servers through ssh tunneling / issue with some js call with proxies,function,neutral
+207,Ease of installation greater language support.,performance,positive
+208,legacy!,performance,neutral
+209,better debugging for variables,function,positive
+210,1. Sometimes it gets very large. Feature of multiple files would be great for developers. 2. Multiple screens e.g. screen divided across 4 files.,function,positive
+211,Sharing code with people who don't use the notebook.  Editing features of eg. Sublime/Emacs.,function,positive
+212,I use it for general purpose programming and explorarory stats but not full blow stats tical modelling. Statistical software offers convenience but lacks flexibility. Eventually we could build a convenience in but it would take a while,performance,positive
+213,Fiddly version control integration ,function,neutral
+214,keyboard shortcuts like vim,design,positive
+215,"On a daily basis my work tends to be quite heavy in computations (large Theano models, but not necessarily Deep-Learning related) which do not seem to work well with notebooks; my machine seem to struggle a bit more when I am working with such models in a notebook and I naively assumed there was a overhead with notebooks.  I am using it extensively though for either quick prototypes (like data explorations and snippets) or to have a polished render of my work.",performance,positive
+216,"Seems a little unnatural to me, but that is probably because I am not sure how it works.",function,neutral
+217,supporting Perl would be handy,function,positive
+218,Rendering with MathJax is very slow; nbconvert for LaTeX sometimes is broken; the absense of tools for nbdiff and nbmerge.,function,negative
+219,Real time multi peer collaboration (a'la Google Docs).,time,neutral
+220,Seamless integration to other languages out of the box. Better version controlling for sharing work with peers. ,performance,positive
+221,"Better/simple exporting tools to pdf. I use a lot of math in my notebook, and I usually need to share a pdf copy with my team, who do not use Jupyter",function,positive
+222,I do a some Django development that requires me to use Eclipse. I wish the text editor had better python coding tools like auto-complete using tab.,function,positive
+223,The tasks that I like to do in Notebook are a more or less monthly thing. I mainly use it as a learning tool.   I use Emacs for most programming tasks. ,function,positive
+224,time ? No I really use it every day at work. (I can't use it much more!),time,positive
+225,other work that needs to be done ;-),performance,positive
+226,"Difficult to get needed information for installing/using nbextensions. Confusion surrounding the iPython/Jupyter transition, naming, and individual elements Uncertainty how to *easily* implement notebooks for university classes I teach (electrical engineering)",function,negative
+227,I don't do a lot of the types of work Jupyter is good at. I'm mostly developing Python packages and I find the ipython console good enough for my needs there.,function,positive
+228,Predictable saving of files and version control,function,positive
+229,"- Hard to make work with version control + code review, so I only use it for one-off, low-risk analytics that I don't need reviewed -Less efficient as an IDE (I use emacs... have tried using with EIN but just never took off for me). Miss my keybindings, etc. - Can't connect to an existing kernel (we have an ipython-based dev environment for our GAE application... would really like to use a jupyter notebook as an interface in this context but that would require connecting to an existing ipython kernel, which I haven't been able to figure out)",function,neutral
+230,"I mostly use R in RStudio and Python in Jupyter. Jupyter is good to write communications, but it ask for too much scrolling up and down for data analysis. The fact that it lies in a browser is also weird to me.",function,negative
+231,- Does not have variable explorer (like Spyder IDE). - Does not have a standalone desktop application (have you thought about using GitHub's Electron to develop a desktop application?),function,positive
+232,"iPad usability, mostly performance",performance,neutral
+233,live collaboration features,time,neutral
+234,Lack of debugger,function,negative
+235,"- Better editor (more vim-style) - Better nbconvert (Make it easier to write paper in jupyter. Right now I can't even find out how to change the title of the resulting latex document) - Better integration with Git (automatic removal of binary blobs before commiting, Maybe allowing view of diffs within notebook)",design,positive
+236,Delayed printout from print statements,function,negative
+237,"Lack of time to redevelop workflow in Python Lack of git integration in Jupiter Notebook (that I'm aware of) Non-intuitive (or broken, I can't tell) debugger—I'd really like my students to be able to step through their code line-by-line, Visual Studio-style, to find where bugs are",function,negative
+238,"In part coauthors, second, the lack of some statistical routines in python, in particular methods for panel data. Third, I like to work in vim when writing code. ",function,positive
+239,"Jupyter Notebook ""Windows 7+"" experience is inferior to Linux one",function,negative
+240,The ideal setup is a way for me to use the terminal some of the times and to update a notebook in Vim and being able to see any changes I've made with git diff.,function,positive
+241,"I use cloud services (e.g. Google Docs, etc.) for virtually all of my work. Using Jupyter requires mental shifting of gears and a different type of platform to use. I run a Jupyterhub server on the Internet just for myself, but managing and organizing the notebook files with Github is simply an awkward workflow that I haven't quite figured out how to do well. If I could just use it the way I use Google Docs directly, it would be perfect.   This also limits my ability to spread the word to others in my field.. ",function,neutral
+242,Deployment issues. There was a lot of fiddling involved in getting a server thrown up and connected with our auth (CAS) and sotrage backends,function,negative
+243,easy ruby support,performance,positive
+244,a simple table input for an array,function,neutral
+245,Lack of code completion,function,negative
+246,lack of other editor features that are found in vim.  Standalone web applications like R's Shiny or Python Spyre.,function,positive
+247,"Fiddling with packages, lack of search and replace, lack of debugging",function,negative
+248,"Currently cannot use ""Fenics"" PDE package in my anaconda environment.  I use Notebook for some things, but still use command line and TextWrangler for Fenics.",function,neutral
+249,"Everything, that distinguished it from IDE like Pycharm. But it is fine",function,positive
+250,Kernel for matlab is not running optimal.,design,neutral
+251,"Computing is but a part of my work, and prototyping in Python but a part of my computing. Other interface (emacs editing LaTeX and noweb sources) are still superior to Jupyter worksheets. Some outputs e. g. docx reports) cannot be obtained rom Jupyter.",function,positive
+252,"1. less optimal editing enviroment compared to other editor like atom and sublime. 2. once a cell is run, has to halt anything else in the same notebook. 3. support for other language like C/C++ is poor with 3rd party kernel.",function,positive
+253,c++ engine ,design,neutral
+254,Multi-cell cut&paste,function,neutral
+255,No tab completion/history in ipdb (https://github.com/ipython/ipython/issues/682) forces me to use other IDEs for debugging purposes.,function,negative
+256,"1.  Ability to HIDE CODE in the notebook. Because, when presenting work to people, I have found that they are generally not interested in looking at the code. 2. Light-weight inbuilt DICTIONARY? MS word has spoilt us!  ",function,positive
+257,"It takes too much time to create notebooks. I can edit text files very fast due to all of the support from various text editors but writing notebooks in a primitive GUI requires too many mouse clicks even with the keyboard shortcuts. The UI is missing too many basic features to allow one to create notebooks very fast, like copying/pasting from one notebook to another, etc. The notebook format is also difficult to manage with version control which makes them a pain to see the differences. The fact that both the code that generates the content and the generated content live in the same file is problematic. Separation of content and presentation could be very beneficial.",function,positive
+258, ,function,neutral
+259,Convincing colleagues,function,positive
+260,Python: difficulty reloading when writing modules Other languages: Stability of other kernels generic: editor clumsiness / browser shortcut conflicts,design,negative
+261,More advance editing figures. I'd love plugins implementing vim/emacs commands within each cell.,design,positive
+262,Integration with text editor ,design,neutral
+263,Editable variable view like spyder,function,positive
+264,need cloud features to share and collaborate notebooks.,function,negative
+265,"1) Much of my work happens on computing clusters in batch mode.  2) Collaborative use of notebooks via version control is very difficult, in particular merging changes.",function,neutral
+266,Proper export tools (mostly PDF or slide shows),design,positive
+267,ability to re-run scripts from file,function,neutral
+268,"Don't know as many keyboard shortcuts.   Particularly, I frequently have to click to restart kernal and run entire notebook.",function,neutral
+269,Lack of fancy text editor tricks/shortcuts that my other editor has. ,design,negative
+270,The lack of an automated AWS credential interface to choose between launching locally or on my cluster. ,function,negative
+271,Difficulty getting coworkers to use python,function,negative
+272,"Limited visibility on wide laptop screens, difficult to style (need deep CSS knowledge, no complete documentation), large cells unwieldy, lose position easily when executing cells esp. large ones - active cell often jumps off screen.  Need more visual contrast but see comment about styling difficulty.  No good debugging tools.  Notebooks are good for documentation but not development",function,negative
+273,Would like to use it like an app. Opening a terminal window and a separate browser window is a bit of a schlep. ,function,positive
+274,"Cumbersome interaction: modal editing is poor. Prior, when CTL combinations would modify the cell, it was much faster and easier.  I teach courses with Jupyter Notebook, and students continuously delete cells by accident and other errors due to the poor modal design.",function,negative
+275," * Lack of interconnection between notebooks. Loading notebooks as modules is still non-trivial * non-trivial UI customization * No native spell-checker * No ""templates"" * No more user profiles or read-only mode",function,negative
+276,* No spell checker * Non-trivial to use notebooks as modules * Non-trivial customization of notebooks * No more read-only access ,function,negative
+277,"sage-kernel is not 100% ready, ",function,neutral
+278,"I write a lot of Python code that ends up being refactored into a module. As soon as that happens the Notebook workflow loses its optimization. There's only so many ""restart kernel"" operations you can do before it starts to hinder productivity.  While recognizing prompting for OK when restarting the kernel is a reasonable UI decision, I'd LOVE to see a keyboard shortcut that does not prompt so I could get around this slowdown.",function,negative
+279,"Version controlling the notebooks is challenging: it is difficult to see what has actually changed. This also makes collaborating inside a single notebook challenging, because changes made by another person are not transparent.   I also use the notebook as a platform for distributing interactive demos for students (using the widgets!). This has been a great resource for getting simulation tools in the hands of students. However, at this point, the upstart for them is still tough. These students have no programming experience, and we are leveraging the notebook as a rapid way to build interactive simulations. If we could easily run them live on the web (not having to have students download, install python etc.) that would be huge! To lower the barriers even further, if we could easily hide the code and execute on startup (essentially using it as a gui), that would be nice. ",function,neutral
+280,The text editing/cell manipulation capabilities are very basic.,function,neutral
+281,"Frankly, I'm not a fan of browser-based tools. Jupyter Notebooks are great for teaching, but I find that being browser-based is a huge hindrance for data exploration and exploratory programming.  In a nutshell, any web-based interface feels much slower than a similar console-based interface, and I personally think they slow down experimentation.  For that reason, I tend to use an IPython console extensively for day-to-day work and only use a Jupyter Notebook when I'm developing tutorials or similar documents.  Keep in mind that this is purely a personal preference.  Notebooks are a great communication tool, and Jupyter is an absolutely fabulous implementation, but they aren't a good fit for rapid experimentation, in my opinion.",function,positive
+282,- Lack of core support for vim bindings - Lack of core support for moving multiple cells at once - Wonky git-diffs,performance,neutral
+283,"Knowing where to find out about change, other tools like matlab ide , some programming languages have poor intergration ",design,neutral
+284,Most of the time I prefer working with the ipython shell directly.  I use the notebook when I intend to share with others. ,function,positive
+285,Intermittent network connections Better interactive plotting would be useful,function,positive
+286,"The programs I write are mostly algorithms processing human movement data. These algorithms are slightly too long for the Notebook (200-300 lines). I also usually have to rewrite the algorithm many times. The notebook does not support this workflow very well, as I end up running Cell -> Run All very often, and editing cells at the top of the notebook. ",function,positive
+287,"Too hard to install. I'd like more of my colleagues to use it, but the only practical way is to use the Anaconda distro; people are reluctant to trade python.org or Anaconda.",function,negative
+288,A missing  version control system,function,neutral
+289,"It does not hinder ME, but I would like a simple way to set up JupyterHub, so that others can *just use it*.",function,positive
+290,The requirement for sequential execution of cells and no concepts of 'modulazation' (call cell x in notebook y) means it is always somewhat cumbersome to use if you are doing anything complicated.   But mostly the reluctance of others to use it. ,function,negative
+291,Training to use keyboard shortcuts,design,neutral
+292,"It's already the central part of my workflow, but Fortran support would be great. ",performance,positive
+293,"I use Spark in my day job, it would be awesome to have a Notebook manage jobs on a cluster. This may be possible, but it's easy-enough (or widely-used enough) to have become a part of my work.",function,positive
+294,"Great, easy to use documentation.  Particularly, a cookbook style compilation of how to best use it for a variety of use cases would be much appreciated.",function,positive
+295,Lack of iPad browser support (input works badly),function,neutral
+296,"Nothing, I just don't need it more often.",function,neutral
+297,desktop UI,design,neutral
+298,It's only for python,function,neutral
+299,"The text editing feature (or lack of thereof). I end up back in Emacs. Also, folding based on the MarkDown structure.",function,negative
+300,"The inability to hierarchically structure notebooks. This is my biggest usability problem, especially coming from Mathematica where it's very natural to have giant notebooks that are very easily navigable.",performance,negative
+301,"it is not a universal tool. Sometimes I need to build more flexible websites than is possible today, or I need to build a backend service.",function,positive
+302,Difficult to stay organized while writing more complicated code. ,function,negative
+303,Collaborators who insist on using legacy platforms like MATLAB.,design,positive
+304,"Post mortem Debugging, Better Debugging in general",function,positive
+305,no 'undo' no proper Git integration too much scrolling necessary for large notebooks,function,positive
+306,Notebooks aren't suitable for every task -- writing library/package code for example.,function,positive
+307,An editor needs to be part of it.,design,neutral
+308,"I'd love to have more interactive widgets. I have to annotate a lot of volumetric data and I'd love to be able to draw bounding boxes or drag polygons inside a notebook widget. Also better support for viewing 3D meshes and other data would be great, but not really something  that the Jupyter team should be solving",function,positive
+309,"The usability in terms of keyboard-only usage could improve. I often have to utilize the mouse (eg. activate an input field). It would be great to get really good hints on what shortcuts are available that are visible during everyday use (eg. underlined characters in the menus) and not only when opening an extra cheat sheet (like it is today). You can only learn the shortcuts, if you see them regularly.  Additionally, the help integration for the programming language I'm using and also additional libs could get better. In times it's really frustrating to search for some function syntax. The SHIFT-TAB stuff is a good start, still I'd like get more and better layouted help. ",function,positive
+310,"Support for more languages. The kernels are note easy to install, nor behind a corporate proxy. Should just be an EXE like Beaker Notebook",function,positive
+311,I want to use Python2 and Python3 kernels and I haven't been about to do that with the same install. ,function,neutral
+312,Lacking editor features,design,negative
+313,Difficult to install.,function,negative
+314,i mostly write postgres sql so if you supported that as a language then I would use it more.,performance,positive
+315,Nothing. Too much time in meetings.,time,neutral
+316,Speed,function,neutral
+317,Language integration with Lua. Multi-user accounts. Better organization of work (I combine links to Jupyter notebooks with Evernote documents to document work),performance,positive
+318,"Mainly the lack of viable use cases on my part. One thing I'd like to see is integration of notebooks with Python's development workflow, so that the notebook cells could act as unit tests.",function,neutral
+319,It should be less of a document and more of a dynamic display.,function,positive
+320,Legacy infrastructure ,performance,neutral
+321,"Nothing, I just don't need interactive development that often.",performance,neutral
+322,Text editing ability closer to sublime (multiple selection),design,positive
+323,Always need to set Python environment,function,neutral
+324,No line numbers. Can't click on line number in exception to highlight line number.,function,neutral
+325,I wish the notebook style was more easy to use (Mathematica style),design,positive
+326,Easily using multiple conda environments.,function,neutral
+327,"Poor editing capabilities (e.g., no find/replace, no visual block selection/editing).",function,neutral
+328,"Would be great to have advanced editor keyboard shortcuts like e.g. sublime text or atom.  Would also love an easy way to ""push"" code from cells to external files so they can be edited by an external text editor. This is both for editing, and to hide complexity and boilerplate initialization used across notebooks.  I've sometimes found it a little difficult maintaining a suite of notebooks that all rely on common code.",design,positive
+329,Better dashboards! ,function,positive
+330,"In ML, I have a cell output the loss at each epoch or few thousand iterations. This makes the output really long and to go between cells I have to scroll a lot to get past the wall of text I made.",function,negative
+331,Switching back and forth between notebook and editor/IDE is distracting and time consuming.,function,negative
+332,"This frequency of usage makes it a regular part of my workflow. I actually need to use it less :) as many scripting tasks would almost better be done in Sublime Text with its more advanced editing tools. I still revert to the Notebook for the increase,entail workflow that I really love.  Having said that, there are pain points -- my first experience of widgets was clunky and improving them would be a focal issue for my regular use in the future. ",function,positive
+333,Better haskell support.,function,positive
+334,"Python's shortcomings.  The GIL is murder sometimes.  Ease of sharing results with colleagues--both in terms of format, and in terms of lowering the cognitive costs of understanding how the notebook actually works. Consider some different visual cues to delineate code from markdown even more than it is already (I enable line numbering, and that seems to work pretty well.)",function,positive
+335,Browser requirements. Exporting files and saving images. ,design,positive
+336,User-identification. I use the site password function but this is very basic.,function,neutral
+337,"The interface isn't the best. It would be good to have full-width textboxes when the window is maximized, and to not have to scroll down every time you re-display a graphic in the last cell.",function,positive
+338,"Jupyter allows me to work on short scripts, but is very difficult to use on complex ones.   Typically I like to write modular code.  When a project gets large I split my work into multiple file.  Some files containing methods for I/O, others for processing or analytics and still others for plotting or visualization.  It is not easy in Jupyter to manage a project that is larger than a single script.",function,negative
+339,There is way to much dead/empty space on the UI. I need the information density of a text-editor. ,design,negative
+340,I don't need it for work by nature. I'm using it to learn and for some side projects and I don't always have time to work on them,time,positive
+341,Not integrated with text editor; my own disorganization - I get make folders full of notebooks and even with git can't keep various versions straight,design,negative
+342,"None for me personally, but when installing stuff on people's computers, especially newbies I'm introducing to ipython notebooks and python, Python 2-3 issues and conflicts with system packages are a damper, and the ipython->jupyter package rename was a gotcha, though it's not that bad. For windows users especially the process is a pain, but stuff like anaconda helps, though it's all very conda-centric which causes added confusion.  Similarly with the system python vs homebrew one in macs. I guess none of this is very ipython specific, but it always comes up during the process of getting ipython + numpy + pandas etc working.",function,negative
+343,Strong gap between editing code in IDE and writing a Jupyter Notebook (juggling between Python scripts and notebooks is not as easy as it could be),function,neutral
+344,Would prefer a native application on iOS and MacOS X. The QT version is ok but suffers from not being a native toolkit. Web Browser version is usable but lacks the flow and system integration that comes with a native application.   iOS is becoming more important as a large part of my workflow is done away from my desk using that platform.   ,function,positive
+345,Sharing working code that uses other files on my system that are not in the notebook file or are too large/too many to upload. ,function,neutral
+346,If it had a simpler UI it would be better.,function,positive
+347,It's a bit less convenient to use than the IPython command line shell for some use cases.,function,positive
+348,It is more of a notebook but it would be nice if it acted almost like an IDE for project-management.  Being able to run multiple modules or pages that link together in the same instance to help break up the notebook page into manageable chunks then a means to pull it all together into a final cohesive program would be quite useful.,function,positive
+349,Not a full-time data scientist.,time,neutral
+350,Better performance with large noteboooks / notebooks containing large images,performance,positive
+351,Accessing a Jupyter Notebook via our University's computing cluster is a bit tedious. Requires some port forwarding and is not easy to teach.,function,negative
+352,Making reusable code with notebooks,function,neutral
+353,"I cannot build dashboards easily.I have to explore using jupyter and then build a dashboard separately. Very less documentation around dashboards,batch mode+dashboards,etc",function,neutral
+354,"moving code from a notebook to my IDE. It would be great if I were able to highlight multiple cells and ""copy code content""",function,positive
+355,"I use it a lot already, but would use it even more if I had a way to manage notebook servers more easily (or integrate them into the cloud for 'anywhere access').  I would also use them more often if it were possible to have a multi-user, collaborative experience (like Google Drive Docs).",function,neutral
+356,Need better support for themes - I prefer dark backgrounds for coding.   I got my setup working on my work computer by changing existing theme files. Repeating it on my personal machine seems too cumbersome to do again.  This is something I have heard from another friend who I got excited about jupyter.,function,positive
+357,"The workflow/interchange between notebooks and documents (such as the markdown I use to write papers) is very clunky - I end up copy-pasting text and TeX maths because the notebook isn't suitable by itself for storing documentation - there isn't a nice way to keep it all in sync. Part of this is that reading notebooks depend on running the notebook server and viewing in a browser, making them unsuitable for sharing and archiving (since you're not always sure you'll be able to load an old notebook without errors if you update packages).",function,neutral
+358,higher startup cost than the shell,function,neutral
+359,"Navigation in large notebooks. I think some automatic table-of-contents/overview mode would be very handy. Also, it would be nice to support detaching from a running notebook or run notebooks in batches. This would be really nice because contrary to a script, you can run your experiments, go to sleep and then just open the notebook to see your results and plots all inline with the code. It also helps document what exactly an experiment did since you've got the results and the code in the same file.",function,positive
+360,for work based environments is security particularly the arbitary execution of code. ,performance,positive
+361,Not relevant to my day job of working with Drupal and PHP.,function,neutral
+362,"At work, the dependency on ZeroMQ is perceived as a threat (GPLv3 is not on our ""blessed"" license list). Since this is probably not a problem (using vs. extending etc.), we actually use Jupyter/IPython in our team (and I'm aware of others using it too).  Personally, the only thing I find a bit weird is how the editor works (e.g. parens autocompletion); IIRC, it can be configured, so this is more of a nitpick.  Usability-wise I've had no problems, although my view might be a bit skewed to the programmer's side.",performance,negative
+363,"As a windows user, hosting it. Too much setup.",function,neutral
+364,The editing capabilities such as:  - indent region  - comment block  - **multiple undo**  - undo across cells,function,positive
+365,Using mainly unsupported proprietary language,performance,negative
+366,Lack of a desktop app instead of browser ,function,negative
+367,"Ability to quickly deploy and connect to a notebook server on a VM (e.g. when I need more memory, spin up a big EC2 instance without an hour of prepping an AMI or learning about Docker, then setting up storage and syncing to Dropbox / github, then connecting and managing security / SSL).  Good but not great cross-language development (e.g. calling R and Python in the same notebook, but for other languages).",performance,neutral
+368,"Exporting 'finished' reports is one aspect. Yes, there are workarounds to code it, but adding simple features that allow you to export analyzed data / diagrams / charts in high fidelity formats is very important.",function,positive
+369,No further need ,function,neutral
+370,"Jupyter Notebook is useful when I have a good idea of what I want to do, but it is very bad for when I am takin g more of a stab in the dark, for the following reasons. 1. The namespace gets polluted from previously run cells even if those cells were later changed, resulting in hard-to-find bugs where I change a function name where it is defined in cell 1 but forget to change it where it is called in cell 2 and there is no apparent error, because cell 2 is silently calling the old function. I have taken to restarting the entire notebook and running every cell over again when I want to make a major change to a function, which is pretty slow. 2. When I am using parallel engines and something goes wrong I typically have to restart the engines and restart the notebook I'm working on, including running all the cells again (some kind of caching would help make this faster, like in R Notebooks). There are probably other issues but they're not coming to mind right now.",function,negative
+371,"Most of my data lives in Postgres, and for exploratory work an IDE with great introspection and autocompletion is faster. ",performance,positive
+372,"(I'm mostly using with python data science libs) Knowledge on how to built extension. Currently I don't know how to do this, so I'm using only for worklfows that are pretty standard.",function,positive
+373,haven't been able to install R jupyter ,function,neutral
+374,"Excel suffices for most of my workflow, and is the primary tool that my group uses.",performance,positive
+375,Don't always do work on the computer,function,positive
+376,"- lack of simple possibility to cut a notebook in pieces (e.g. as in Mathematica, where one can select a few cells at ones) - lack of mature solutions for collaborating on the same notebook",function,negative
+377,I don't need to do this type of work more often,design,positive
+378,Integration with IDEs - I want to use the notebook as a notebook but writing code in it is painful. PyCharm has integration but... ugh,function,negative
+379,"When changing python modules in another editor, it would be nice if reloading them didn't need a kernel restart. Especially if they are imported as:  from x import y as z",function,positive
+380,"It's hard to keep track of what's going in beyond a number of active cells. If there is say a short cut to get back a previously edited cell, I think just that would cut down on time spent in scrolling. ",function,negative
+381,no comment,function,neutral
+382,"Starts up a slow browser with all the previous tabs I may have.  Faster to start an ipython session in terminal.  Difficult to find the jupyter tab or figure out which jupyter tab corresponds to what analysis.  Simper to start an ipython session in terminal.  Stores data frames and such in memory. Not clear which cells are loaded and which aren't and what is taking up all the RAM.  The freedom also makes it simpler to create a mess with ordering of cell execution.  Simpler to start an ipython session in terminal.  Leaves an ipynb file around if I want to do a quick analysis. Have to go back to dir manually to delete the file.  Print statements slow down browser sometimes. This has improved though.  Scrolling is really bad if a command created a lot of output.  Searching through worksheet is not intuitive.  Cannot reload modules easily.  %load_ext autoreload and  %autoreload 2 doesn't work. %autoreload 1 doesn't work. Tested on OSX and Linux.   Same problem with ipython, but this is more of an issue with the notebook because it has more of a permanent state than terminal sessions.  You end up having to restart the kernel and lose everything in memory.",function,negative
+383,Working out how to better combine exploratory work in notebook combined with writing scripts/programs in an external editor for future use (especially since the editing tools in external editors are much more powerful than in notebook),function,positive
+384,Hard to write software packages in. Lack of support for some inline objects (3D graphs with matplotlib),performance,negative
+385,I was using Emacs Org-Mode to embed calculations in my documents.   Org Mode has some other advantages but is clumsy.,performance,neutral
+386,"Not non-trivial to go from a working solution in a notebook to a script. As in, when I try to move from exploration to production product, it's not seamless.",performance,neutral
+387,"Better report generation. I am supposed to save things in MS Word or pdf format. This is much easier with org-mode, which I also use.",function,positive
+388,"Better terminal integration, text editing features",performance,positive
+389,"Not a problem with Jupyter per se, but something to do with the whole ecosystem.   The notebook is great for quick hacking and documenting the process, but the visualisation tools are precarious. Matplotlib is designed as a copy of matlab, the output is in image format, and within the notebook, optimised for display. Interactivity with the visualisation is not great, and small tweaks take an inordinate ammount of time. Producing visual outputs for purposes outside of the notebook is also cumbersome.",function,negative
+390,Time,time,neutral
+391,RStudio,function,neutral
+392,"I don't use it for multi-file development (where I am working on both Python modules imported from another file, and the file that imports them). I find it too cumbersome for that workflow.  I also find the non-relationship between execution ordering and visual ordering off-putting for development. When reading code in another IDE, I know the execution order is determined by the visual order in combination with the call graph. In Jupyter Notebook, since a cell below could've been executed before a cell above, the ordering now must include the numbers next to the cells; this is too many elements for me to keep track of. As a result, I tend to only use Jupyter Notebook for exploratory work (more like a REPL), and copy and paste code into a text editor as I finish with a small snippet.",function,positive
+393,"It is not easy to share a notebook with non-technical co-workers.  I can't email them a notebook, and have the file association automatically open it on windows.  I can't easily distribute a notebook with links to required python packages to run it.",function,negative
+394,"Hard to keep track of large number of notebooks that need to be regular updated, or that are used to run commands.",function,negative
+395,"Most of what I do is pretty canned, so scripts are better ways to run things.   I use jupyter for experimentation and tests.  ",function,positive
+396,format of the notebook content.  prefer markdown,function,positive
+397,"Starting up an instance in the terminal before accessing with a browser. It's be a simple thing, but a native wrapper around Jupyter server set-up and saving would be nice.",function,positive
+398,Multiple checkpoints for notebooks,function,neutral
+399,Slowdown from codemirror javascript in large notebooks and inability to seamlessly edit outside of the browser (e.g. vim),design,negative
+400,"Maybe better integration. Right now I have to manually start the jupyter server and browse to the folder where I want to save the notebook, and that takes energy.",function,positive
+401,"While writing individual scripts, it is fairly easy to split them apart into smaller interoperable units by cutting and pasting and imports and the like.  I've noticed that my notebooks tend to become a little overwhelming, and there is just enough of a barrier to extracting parts of the notebook amongst multiple cells into a script to keep me turning to the console ipython most of the time for initial investigations.",function,positive
+402,"- development of modules with multiple files - development of notebooks that render lots of mathjax (it gets slow) -(painless) integration with distributed computing backends (this isn't really about the Notebook itself, but I had to say it)",performance,neutral
+403,Lack of streaming stdout. Lack of strong + easy integration with text editor of my choice.,design,neutral
+404,"Would like a mode for notebooks (a la read-only) where the default setting is to not modify the existing notebook, only to save a new one. Helpful when sharing a demo notebook via a git repo",function,positive
+405,"Not a normal part of my job, but useful when I need it",function,positive
+406,Create User Accounts No easy to select a diffrent color scheme,function,positive
+407,Not being able to edit code in my normal IDE.,function,neutral
+408,Lack of really good Vim support.,design,positive
+409,ZMQ library problems with Julia,function,negative
+410,Inoperability with in-house tools.,function,neutral
+411,Seems to have trouble with history and multiple undos. Needs more training videos. ,function,negative
+412,"command line + editor workflow, working with many sources",function,neutral
+413,Editing capabilities for text. Ability to convert from notebook form to plain text and back again?  Working on multiple notebooks.,design,positive
+414,Nothing. ,function,neutral
+415,"not easy to terminate the running cell, often no response. ",function,negative
+416,Doesn't run on Android. (Say the same for iOS if I had an iPhone or iPad).,function,neutral
+417,Lack of compelling vim support with .vimrc,performance,neutral
+418,Editing outside of Emacs is less comfortable. ,design,positive
+419, ,function,neutral
+420,no access to a variable browser for debugging purposes. This is the same issue that kept me from using Mathematica more in the past.,design,negative
+421,I don't need it more often,function,neutral
+422,IDE features,function,neutral
+423,Mobile editor features,design,neutral
+424,"Presentation options are limited - I often have to jump out to tableau or powerpoint. Slides need to be more flexible, not just code and plots.    Lack of easy version control, as seen in RStudio.",function,negative
+425,shift in perspective between coding effectively in emacs and clicking around in web browser,design,positive
+426,Lack of better ide like functions. ,function,positive
+427,Stability,function,positive
+428,"I tend to build things up in a notebook by creating one function at a time, but as things get bigger, I have to execute more and more code blocks each time I restart the kernel. I eventually move parts over to a python/julia module, but then when I need to make changes, I have to do that in an external editor and restart the kernel.   It would be nice to be able to do all of this directly in the notebook, not sure how that would look exactly. Maybe a cell type that was a little embedded editor/ide with a file browser.",function,positive
+429,"(with python) lack of elegant modularity and code reuse, global state, mental burden when notebooks grow above a certain size",function,negative
+430,Don't use python at work,function,positive
+431,"- embedding of graphics directly in the .ipynb file - insufficient 3d graphics support - no single unified find or document model (e.g., each cell is its own separate editor) ",function,neutral
+432,"Akward to commit to repositories, and for proper debugging. I also refer rstudio for visualisation",function,positive
+433,"* need a black theme (eyes sore from too much light) * need CLI interaction (for commands but maybe curses-like too) * need debugger support (like pudb, ipdb, pdbpp, wdb?) * provide a way to execute some cells asynchronously (sometimes we would like to execute some monitoring code or command prompts or `pip installs`) * interactive input widgets (so we can drive matplotlib-like plots)",function,positive
+434,- smooth integration with other languages - hiding code,function,positive
+435,Friction starting and connecting to a Jupyter kernel running on a remote machine,function,negative
+436,"Some kind of ""export cell as library"" support that would streamline saving the content of cell(s) in a source file (eg: .py, .jl...) and reusing it.",function,positive
+437,I wish for a dedicated app rather than a two part server + browser solution.  Also richer document creation and slideshows would help.,function,positive
+438,"Unfortunately my team does some things in google sheets. It is quite a pain to port things from google sheets to a notebook, but I do have to do it often.",function,negative
+439,Better integration with batch-based computing clusters,performance,positive
+440,I do not do science projects regularly.,function,neutral
+441,"Nothing, I always use it for the tasks it can handle",function,neutral
+442,"Two things:  1. It is too mouse-driven. I'm a bit embarrassed to complain, because I should just build an emacs-layer myself. Presumably there'd be a vim-layer available too.  2. Does not play nice with version control. I prefer to keep my source separate from my results, and it's difficult to get Jupyter to do this. If nbconvert could run the same ""Clear All"" command that you can run by clicking in the notebook, dumping the clear-all'ed to stdout, I think I'd be golden.",function,positive
+443,The notebook gets cluttered very quickly.,function,neutral
+444,Better keybindings for text selecting.  Eg would like emacs bindings,design,positive
+445,"I use it in an academic environment, and it was non trivial to setup a multi user server. I used jupyterhub on Linux in the end with a custom authenticator. I'll see how it performs under load this year.",time,negative
+446,"Interactive development is just not a good model for software development. Static typing, slow and proper software design, planned unit testing, data provenance, logging, etc., etc., are all extremely important **even in a rapid prototyping situation**. In fact, these things might be even more important for a rapid prototype than for more traditional software development. The notebook is just not a good setting for these things, even though many of the types of problems the notebook is supposed to help solve (interactive data cleaning, rapid prototyping, cursory data exploration) should all be heavily, heavily based on proper design, unit testing, and so on, even when they are being worked on in a ""rapid"" environment.",function,positive
+447,"The forthcoming JupyterLab, more IDE-like interface based on phosphor.js, better notebook sharing features and cutomization (plugins).",function,positive
+448,Nothing. I switch between data projects where I use it and infrastructure projects where I don't.,function,neutral
+449,Inability to easily embed videos in the notebook requires me to use other software.,function,negative
+450,"It's starting to become a regular tool. I run the notebook server on a VPS and use the notebook through SSH. I run the notebook server on code in a Git master branch and I sync that with a local branch periodically. I have mostly just used Idle in the past because that is very flexible and I get a complete transcript of my programming session. But support for Idle and improvements to Idle have mostly stopped. I like the general idea of the notebook but the format doesn't support some things very well - testing for example. I would like to have my tests in a separate notebook that is linked to the one I'm currently developing (same kernel I guess). I would like my tests to be separate because if they are in the same notebook as my normal code then it is distracting. I could migrate out my tests to  a separate file, but then they are not in the same notebook format as the regular code which is very convenient.  Some things in Jupyter are frustrating: 1. the kernel cannot be reliably interrupted. 2. kernel crashes. This means that datasets must be reloaded which can take a long time in my case. 3. code is not reloaded easily: I have to manually use reload(module) if the code is in a file. The notebook should reliably reload modules: I realize that this is a long-standing problem in Python generally that has still not been resolved after all these years. 4. code reload in a cell is very buggy. I've had old code remain in a cell after making a change that has caused some strange results. A reload of the code in a cell should clean out all of the old definitions and variables in that cell so that there can't be any strange behaviour due to old references. ",function,positive
+451,I'm used to vim.  Using a web based UI feels very inefficient.,function,negative
+452,"The editing of the notebook is sometimes cumbersome, e.g. when reordering cell or toggling output",function,negative
+453,Having the admins at work install it. ,performance,positive
+454,"Only use it for data processing, which I don't do regularly. Most of my code is OCaml, and the notebook workflow doesn't work well in that context. ",function,positive
+455,Better R  Python integration.,function,positive
+456,integration into my IDE/text editor,design,neutral
+457,breakpoints,function,neutral
+458,I don't know of a clean way to reimport modules that I've edited without restarting the kernel ,function,positive
+459,"Sometimes creating new cells is tedious. Lots of clicking. Lack of keyboard shortcuts or easy discovery of keyboard shortcuts.  Aesthetics and lack of easy customization: changing fonts for readability, light and dark themes, etc. ",design,negative
+460," - No double click to run notebooks on OSX  - Diffing/source control for notebooks is a headache  - While developing a module outside of the notebook, it's hard to force a reload of that module (things like %autoreload don't seem to work) in the running kernel (for testing changes)  - No easy way to see what variables are defined in the kernel already and examine their values",function,positive
+461,"(1) I would like easier-to-use, standardized interactive graphics. (2) I would like my users to be able to go to a web page and run my code, without having to download and install anything.",function,positive
+462,"Trying to make other colleagues use it.  There probably is a way of doing this, but when opening a Notebook having certain cells always precompute instead of having to run them individually.",function,neutral
+463,"If there were an easier way to integrate Jupyter Notebook with Django, it would be extremely useful.",function,positive
+464,Time allocated for the project using Jupyter,function,neutral
+465,Good Git integration.,function,positive
+466,Don't understand the advantages it brings to the table compared to traditional command line workflow unless working on plots ,function,neutral
+467,Ide-like interractuons wien writing code,function,positive
+468,"The memory use often makes me unable to load in my data as fully as I can in a more traditional IDE.  It also isn't as easy as I'd hope to generate loads of graphs iteratively, which means Jupyter isn't as good for data exploration - my main use case.",function,positive
+469,"The saved state is hard to quickly clear. If I am working on a cell that changes a variable I have to re-run the cell that sets that variable every time I run the cell I'm working on. I wish there was a keyboard shortcut to restart the kernel, clear all inputs, and re-run the whole notebook. Or at least throw out the execution of the current cell and re-run it.",function,positive
+470,"I can't apt-get install jupyter in Debian.  Using pip appears to pull large quantities of software from what amounts to another distribution. I know and trust Debian and the DFSG; I trust it to play well with upgrades.  If there's a simple semantic mismatch (like iPython vs jupyter), it's sure not obvious to me at first pass.  I'd love to use Jupyter, but it needs to fit into the reliable framework that's treated me well for the past 15 years.",function,positive
+471,Sharing features Cross-language support (so different kernels can share access to serializable objects),performance,neutral
+472,"I find that the smaller the task, the better suited it is, and that it needs polish when the notebooks or cells get really long. When cells are big, scrolling through cells is awkward, the cursor can get stuck off-screen, and the help window often obscures the cursor. Finding your way is tricky. Same thing goes for large notebooks -- something to make the notebook easier to navigate (for example an outline w/ hyperlinks) would be helpful.",function,negative
+473,"Lack of IDE features, such as completion, syntax checking, linting ",function,negative
+474,Mature versioning system built-in to the UI,function,positive
+475,"Version control (and, which is related, collaborative version control).",function,neutral
+476,The difficulty to use notebooks in version control repositories of more than one person. Code conflicts are generally really difficult to resolve (or at least that's my experience with git+ipynb).,function,negative
+477,"One reason I end up using RStudio with R more often than Jupyter Notebook is because with RStudio I can resize graphics to my liking (manually) prior to  output to files. Also, RStudio and R have easily available help documentation for functions whereas with Python libraries I end up searching the web. This interrupts my workflow more than using R with RStudio.",function,positive
+478,I want collaboration with real time cursors like google docs has.,time,positive
+479,Lack of strong intellisense.,function,neutral
+480,"Browser performance, and annoying codemirror defaults. Would love vim keybindings.",design,neutral
+481,Cumbersome to setup. Doesn't work once I do. ,performance,neutral
+482,"Poor integration with other languages (IHaskell is a pain in the ass).  It's easy to get disorganized with the minimal structure.  Sometimes I accidentally print too much and it crashes everything and can't stop, so I lose work.",performance,negative
+483,"I use the notebook to develop non-interactive analysis scripts and as a nice graphical interface to ipython.  Using IPython is often the most convenient way to read the documentation, especially because inspecting live objects helps to clarify what they're doing.",function,positive
+484,I think desktop app would help. Even something like Atom+Hydrogen.,function,positive
+485,"""%matplotlib inline"" not being default ;-)",function,neutral
+486,Sometimes the notebooks become a bit unwieldy when they get long.,function,negative
+487, ,function,neutral
+488,"Effort in converting Notebook analysis to either complete modules (with tests, etc) or to dashboards for external users (a la Shiny).",function,positive
+489,"Lacks lots if IDE features I am use to, such as auto formatting, highlighting of errors, refactoring, etc ",function,negative
+490,More time to work on it,time,positive
+491,"Better code completion and tooling. I run mine inside Pycharm, which helps a lot. Better data source integration. ex: saved data sources that don't require you to store plaintext credentials in your code.",function,positive
+492,"Using ancient Python 2.6 on RHEL6 for work, which hinders the ability to use modern versions of ipython.",function,positive
+493,Very useful for scientific research.,function,positive
+494,"My biggest pain point is working with large data sets (for me 1 to 10gb). Everything gets slugish, and I don't have feedback on when it'll finish. I run the notebook on a node with 60gb of ram and lots of CPU power, but the browser seems to be a bottleneck.",function,negative
+495,* Hard to interrupt kernels (ctrl-C should work) * Bad export to python code (should have an option to disable the conversion of the %statements),function,negative
+496,"Two things off the top of my head: 1. My ordinary text editor (Sublime Text) is much better than the Notebook interface. 2. Version control collaboration with notebooks seems awkward. I haven't tried to git merge ipynb files, but my guess would be that it is complicated.",function,positive
+497,Switching between developing a small library of analysis tools and prototyping is a bit of a hassle. ,function,negative
+498,"I would really speed up using notebook if the cells had vi keybindings, especially the visual mode. I am sure the same holds true for emacs mode for someone who's brain is wired the wrong way 😀",function,negative
+499,"I don't like typing code into a web browser. I write code every day and I use my text editor for that.  I find it hard to fit into git-based workflows. JSON diffs are not nice.  I sometimes wonder whether what I want is a way to edit ipython notebook code from a plain test format like  markdown, i.e. similar to this project: https://github.com/aaren/notedown",function,positive
+500,Vim keybindings,design,neutral
+501,Availability from Ubuntu repositories,function,neutral
+502,lack of debugger,function,negative
+503,It's hard to add new kernels to the Jupyter.,function,negative
+504,"Better iOS client support. More buy-in from the core-engineering team (they love Ruby, Go-lang, PHP, and are suspicious of Python).",performance,positive
+505,"Easy access to command history (via up-arrow, Ctrl-r etc) - this is very useful in the ipython shell and I miss it in the notebook",function,positive
+506,The editing environment is frustrating and very limited. ,performance,negative
+507,"Doesn't seem to fit with building a large project, prefer IDE",design,positive
+508,Mostly inertia. I'm still not used to it and the nicest features don't integrate with Emacs.,design,positive
+509,"My work does not always involve sitting in front of a computer. On weeks where I am doing more data analysis, I use it quite a bit more frequently than the ""weekly"" indication above.",function,positive
+510,Compatibility with pentadactyl.,function,neutral
+511,I just haven't found a need for it.,function,neutral
+512,"It is very difficult to install Jupyter on OS X without resorting to (imo messy) tools like Homebrew. I also had no luck getting multiple kernels operating, which was frustrating. Lastly, UI bugs in Safari can make using it frustrating.",function,negative
+513,"The friction to open a terminal, launch Jupyter, open the browser, add a notebook, v.s. the comfort and familiar editor and command line. ",function,neutral
+514,Start up costs; reusability of code,function,neutral
+515,No find and replace functionality!,function,neutral
+516,Nothing. My entire workflow happens in Jupyter. ,function,neutral
+517,"Editing things is cumbersome - now I am used to vim and sublime shortcuts, I find myself missing them a lot.  Typically, the notebook has some quick ideas in it, which inevitably don't follow the best coding practices. So I often need to replace things, or edit all instances of a variable, etc - something that is hard (if not impossible) in the notebook.  Another problem is that notebooks can become cumbersome - but I guess this is more my poor planning/organisation than the notebook's fault!",function,negative
+518,"Startup is a little slow, though potentially just an issue with my python install.",function,negative
+519,vim bindings  live reloading,function,neutral
+520,"1/ Notebook not integrated with IDE (so cut-and-paste required)  2/ Notebook UI kind of rough (not very workflow-cognizant, requires excess steps) 3/ Not well-integrated with sites I need to use it with (e.g. Github, Bitbucket, Stack Overflow)",function,negative
+521,I need to know it in depth indeed,function,neutral
+522,- Multiuser support - Debugging capabilities,performance,positive
+523,More documentation on APIs and configuration stuff ,function,neutral
+524,Nothing special,function,neutral
+525,Notebooks get unwieldy when they get very large.,function,negative
+526,Customizable toolbar and diff-able (version control aware) notebooks.,function,neutral
+527,"More accessible language kernels for multiple languages: ocaml, java.",performance,positive
+528,Bugs when exporting notebooks to Latex/PDF,function,negative
+529,I prefer Juliabox which I don't need to administer and is in the cloud.,function,neutral
+530,Difficult to move code developed in notebook into proper module after the experimental stage.,function,neutral
+531,"Editing features too basic (shortcuts, completion, indentation etc)",function,neutral
+532,Relearning profile management each time.,time,neutral
+533,"If anything, it would be that could consume fewer ram.",function,neutral
+534,Difficulty of navigating and organising large notebooks,function,negative
+535,The only time I don't use jupyter is when collaborating with others who don't. Usually the collaborators are stuck on Matlab and unwilling to change languages.,function,negative
+536,It would be awesome to see notebook generated graphs and such easily be exported to power dashboards etc. outside of the notebook environment.,function,positive
+537,Global namespace pollution and inability to easily view variables like in R or Matlab,design,neutral
+538,More control over look and feel   Collaboration with other team memebers - think google docks style  ,function,neutral
+539,"It's good for writing up results, but I find it awkward for messing around.",function,negative
+540,Adapting existing workflows that use other tools.,function,neutral
+541,"Jupyter notebook is a memory hog. I used it all the time but realized that it was faster to run code via the command line.   Also, large notebooks become unwieldy and difficult to navigate. Better navigation could help",function,negative
+542,Version control integration - sharing a notebook within git is pretty painful Reload of local python modules Namespacing of variables continues to trip me up ,function,neutral
+543,Nothing. I use it all the time. ,time,neutral
+544,1. Easier to deploy 2. Missing documentation / tutorial,function,positive
+545,"Interactive plot exploration (through matplotlib) is a bit clunky and much worse than in Matlab, for example. You basically need to modify the code that you used to create a plot and rerun its cell in order to modify the plot. Embedded plots are not interactive and regular matplotlib figures are not that dynamic to begin with. You can zoom and pan but you cannot modify them in any other way (e.g. you cannot select a plot element and modify its color, delete it or add a fitting curve as in Matlab). Some of these are limitations of matplotlib of course but that is part of the whole ""Jupyter package"".  Creating interactive plots and widgets is too complicated at the moment. It requires too much programming.  It is hard to generate a nice report that you can share with non technical people from a Jupyter notebook because there is no way (AFAIK) to hide the code cells from the output. It would be cool to be able to mark a cell as ""hidden code"" which would be excluded from the generated PDF for example.  The UI is a bit clunky and editing code is a bit painful when there is a lot of code in a cell.  Being able to run cells out of order is cool but it also makes it hard to reproduce what you did later. This makes it particularly hard to turn a notebook into a proper Python script sometimes. It would be great if you could somehow replay the notebook in the order that you executed it and export that in the proper order. Maybe there should be a way to programmatically execute a cell from another cell (maybe this is already possible and Injust don't know about it).",function,negative
+546,- Variables view like matlab - Debugging (breaking points etc),design,neutral
+547,"1. The integration of matplotlib could be better. E.g. resizing of a graph still does not trigger a redraw, and is not stored for the next run of this code cell.  2. A basic version of shared notebooks would be great. Of course, real time collaboration at one notebook would be best, but running notebooks on different machines, and tracking individual changes would be a great first step, thaat, I think, is much easier to realize, and  almost as helpful.  3. Some lightweight admin level for code cells (run, delete, move cell groups). Probably possible to combine this in a reasonable way with some structure of the notebook.",function,positive
+548,"Running code with thousands of lines of print, works poorly. Would be nice to have an easy way to execute a block of code in the terminal.  Editing text is not on par with sublime text. ",function,positive
+549,I use it heavily to do exploratory data analysis. I conduct trainings often & feel Jupyter is the best way to do it.,function,positive
+550,"some nice ideas, but there should be much more. other projects like rstudio offer far superior features for years.",function,positive
+551,1) Conditional Formatting (should be fixed by df.style)  2) Kernel Died Errors  3) Am uneasy with %load_ext autoreload  4) Drag charts into gmal sometimes results in issues.,function,negative
+552,"The majority of my Python work is on personal projects that don't require me to share code, so it is often easier to use a desktop IDE (like PyCharm or Rodeo), or just use Sublime Text.  The setup processes for these are marginally quicker.",function,positive
+553,I work with multiple files with large quantities of code. I have not find an easy way to integrate Jupyter into my workflow except for small tests or results,function,positive
+554,Enterprise adoption,function,neutral
+555,Being a separate tool: I'd like to use jupyter without switching between my editor/IDE and jupyter,function,positive
+556,snippets,function,neutral
+557,It is still at its enfancy with regards to citation etc,function,positive
+558,Lack of 'grid' type view for pandas data frames (a la rstudio).,design,negative
+559,"Lack of a convenient way to run code chunks (we have run all before, run all, etc.), but I""d really like to be able to select a group of cells and run only those, rather than running each cell manually. (merging groups of cells simultaneously might also be nice). ",function,positive
+560,Lack of ease in publishing work (e.g. generating PDF without code blocks),function,positive
+561,I develop bigger applications,function,neutral
+562,Scrolling up and down in the notebook (RStudio interface is an ideal data analysis workbench),function,positive
+563,"lack of debugging tools, lack of variable views",function,negative
+564,Lack of languages ,function,negative
+565,"UI design is bad, and the ipynb file format is not great for using with a git",function,negative
+566,spell checking.   I look like what I am as far as spelling is concerned; an idiot. This taints perception of what I am saying which is not idiotic.   ,function,negative
+567,- Version control on GitHub is clunky - Not being able to minimize/hide cells,function,negative
+568,I don't have enough problems that require exploration etc that notebook provides. ,function,neutral
+569,Acceptance and support within my company,performance,positive
+570,Working more on data acquisition than data analysis. Jupyter is not a good IDE for developing code IMO (I use Vim),function,negative
+571,- real-time 3d visualization - the need of javascript for writing custom interactions - lack of first-class support for sticky viewers,time,negative
+572,Lack of a find and replace feature.,function,negative
+573,Cutting cells. Drag and drop them with mouse. ,function,negative
+574,"1.  Difficulty using with version control, esp. git 2.  Lack of code-folding or other organizational helpers 3.  Lack of simple interoperability with raw python source files-- once the decision to use JN is made, everybody has to use JN.",function,negative
+575,"When working with large data sets, sometimes the notebook gets stuck. The only way to get out of this needs the notebook to be restarted, this way I lose the dataset loaded in memory and a lot of time is wasted in reloading the file and running the steps again. Also, I have tried to use 'Ctrl + c' which works most times but fails with large data sets several times also leading to need for a restart. ",function,negative
+576,"C#, debugging, complex GUI interaction, Excel, internal tools and workflow",design,neutral
+577,"Cross language compatibility, i.e. running jupyter on different language kernels, such as scala, spark, groovy, clojure, etc.",performance,neutral
+578,"Nothing at all. When i code, I start with the notebook",function,neutral
+579,"I use Jupyter Nbs for a specific part of my workflow, for example for tutorials and teaching, or for playing around with data when a lot of visualization and annotations are needed. Otherwise, I use version-controlled scripts and the IPython shell.",function,neutral
+580,Slightly complex startup procedure - I use it with Julia,function,negative
+581,"Out of the box support for multiple users, scheduling, export without code cell. Documentation still not good enough.",function,neutral
+582,"Lack of an obvious integration with standard testing suites - I heard very recently notebook testing has now been fixed, but it was broken for a while and this was a big set back.",function,negative
+583,No clojure,function,neutral
+584,"The lack of version control (tracking changes using git does not work well) My own knowledge about how to use functions in other notebooks, etc.",function,negative
+585,"Being polyglot, it would be very good if we could use multiple languages in a single notebook.",function,positive
+586,annoying to start the notebook server when I want to qucikly look at notebook content  versioning notebooks (git) is a pain,function,negative
+587,Better code editor,function,positive
+588,Other tasks,function,neutral
+589,"The strict linearity, lack of automatability, and inability to reference code from other notebooks (e.g., as a module -- related to the nonlinearity).",function,negative
+590,Need server running with access to my notebooks. ,time,neutral
+591,Some things just work more efficiently for me to script directly in Python.,function,positive
+592,Nobody else in my company is using it.,function,neutral
+593,School assignments,function,neutral
+594,Lack of powerful text editing features like VIM or Emacs.  Limited kernel support (e.g. not as good as the Python one).  No multi-language notebook support.,function,positive
+595,"1. As code used for data analysis for a single project becomes more stable, i find it better to move the functions that dont require change out of the notebook, for 2 reasons : 1.a : Makes my notebook more clear - i only keep the functions i m still tinkering with 1.b : Protects me against accidental deletion by moving important functions into version controlled .py files. It happenned a few times to lose hours of work in the notebook by abusing the 'cut cell' action. (Cuts a few cell, including a few critical preprocessing ones - codes still runs fine as variables are in memory. Saves notebook. Come back a few days later --> broken)  2. Some weeks i do web dev (to show all those nice plots created in notebook) . Notebook's not useful for this.",function,positive
+596,Option to have cells on one side of the screen and output on the other (split screen) instead of output below each cell,function,negative
+597,"Inability to do ""git diff"" in a reasonable way  I get very frustrated with the text editor adding parentheses for me.  It never acts the way I want it to, and it's very unclear how to disable that ""feature"".  The auto-indentation is also similarly poor.   And the undo features can be buggy.",function,negative
+598,Just haven't taken the time to integrate it into my workflow yet.,time,neutral
+599,"lack of copy/paste between notebooks, lack of simultaneous multi-user access to notebooks (multi-cursor), as well viewing/working on the same notebook in multiple places (e.g. two side-by-side browser windows); missing undo, poor source code editing environment compared to vim/tmux, ",function,negative
+600,"Notebooks become less manageable when project becomes bigger. It would be nice to incorporate more 'IDE' like properties like multi file projects, that can be worked on simultaneously (with the same kernel) ",function,positive
+601,text editor integration,design,neutral
+602,"- Hard to keep track of which cells have been run when run out of order - Hard to easily change CSS styles. Would be nice if I could easily change the look and feel of the notebook (using themes) from the toolbar - More tools / features for sharing notebooks, especially on different platforms (mobile)",function,negative
+603,"I miss using a debugger while writing larger programs. As a result, I just develop programs using a regular IDE such as Spyder or PyCharm, and then use Jupyter to summarize the findings. I find it hard to develop code first in Jupyter.",function,negative
+604,"Nothing really, it's already pretty frequent.",function,positive
+605,It's already a core tool for me.,function,neutral
+606,I m more productive with a text editor and a terminal,design,positive
+607,Visualizations (compared to ggplot),function,neutral
+608, ,function,neutral
+609,Notebook format doesn't work well with git. Lack of basic code editor features like replacing text.,function,positive
+610,"The lack of proper autocomplete for Python. Yes, even in the notebook cells, but especially the editor, which could be useful for writing modules.  Difficulty of working with different versions of the same notebook while iterating my data analysis.",function,neutral
+611,Not needed for my industry work.,performance,positive
+612,"Cannot (yet) get it installed on our HPC nodes (seems to be coming soon, though)",function,neutral
+613,Collaboration and revisioning support.,time,positive
+614,It's not simple to move notebook data to and from Git to keep a safe history of work.,function,positive
+615,"The notebook workflows are very linear, doing experiments is difficult. Also some source control/diff tool would be really nice.",function,neutral
+616,devops -- access to turnkey persisted instance or prebaked kitematic images.  devops - easy access to preconfigured common setups -- like mysql or cloudant libraries pre-installed. ,function,positive
+617,"It would be great to have a scheduler and/or a real exporter in order to put ""in production"" the notebooks",performance,positive
+618,"Most of my programming work is for web and server deployments, not really suitable for Jupyter Notebook.",function,positive
+619,Already is a very integral part of the workflow. ,performance,positive
+620,"1) Not ideal for projects with many related / interlinked files (which in truth is more like software development than analysis), in which case I use PyCharm  2) There's something a tiny bit buggy with the Kernel when I'm running resource intensive code.  Sometimes the kernel dies, and I feel like some error is getting swallowed.  I often revert to a command line in cases like this to feel like I have more ability to manage and babysit the code.  Some New Relic like diagnostics would be a beautiful addition to Jupyter.",function,positive
+621,I'd like to be able to easily reuse cells from one notebook to another. Kinda like an import command.  Not a major thing though.   I love Jupyter. I use it all the time. ,function,positive
+622,Quirky text editor behaviour,design,neutral
+623,Our code review software (Stash) doesn't have an officially supported plugin to render/review notebooks... you just see the raw JSON.  So I tend to port most function definitions to library code.,function,positive
+624,"Hard to write production code, I use it as an exploratory tool",function,negative
+625,"1. Better integration with version control systems 2. Seamless transition from notebook to standalone python script, e.g. for report generation. 3. For small code snippets, it's perfect. For a large-ish library, you know to avoid it. When you are in between the two, the editing capabilities are a limiting factor.",function,positive
+626,"-Bad code editing and refactoring tools. - After a while, notebooks become large and hard to navigate",function,negative
+627,I use it for all of my workflow.  but I would LOVE if i was able to copy whole cells and multiple cells between notebooks!,performance,positive
+628,"I love the Jupyter notebook already, and use it daily. Can definitely introduce productivity enhancements to make it even better!",function,positive
+629,"I usually run it as a server through an EC2 spot instance. While not bad, there is a little time to calling up an image, and spinning up the instance and connecting to it. I'd love for that process to be turn-key.",time,positive
+630,"Make better use of my screen - too much unused space in the notebook  Multi-user support. Including collaborative tools like commenting and even versioning.  File/Notebook management. Make it easier to download files, find recently opened notebooks, etc.",function,positive
+631,Version control is not very easy.,function,neutral
+632,Integration of R,performance,neutral
+633,"We still need to have ""idiot-proof"" documentation for serving up your own Jupyter notebooks on a personal website. If we had that, I'd guarantee we'd see a surge in the number of notebook-enabled textbooks, demos, etc.",function,neutral
+634,"Inability to run notebooks as first-class scripts. Sometimes I'll have a particular or analysis demoed or sketched in a Notebook; simply running the Notebook will be enough to produce the whole result that I care about. Because it's not easy to run Notebooks from terminal (like ""$ python my_notebook.ipynb""), I end up having to convert them. But since in the process, I end up creating a normal script, I take the time to write a full shell script with argparse and other options in case I want to tweak the output later. That's all fine, but it would be really nice to just by able to run the notebook directly.  Additionally, first-class or native support for git-hooks would be nice, so that it's easier to track a notebook in version control. Really - all I care about is the logic, not the metadata for each cell!",function,positive
+635,"Better interoperability with scala ide , like intellij",function,positive
+636,"The ""editor"" option.  I do use a firefox extension that send me from the code cell to my favorite text editor, but it would be nice if Jupyter could emulate more the features we have in most test editors like spell-check.",function,positive
+637,Entering command line code to bring it up. ,function,neutral
+638,Sublime text key bindings. Debugging external python code.,function,positive
+639,"Conversion to word docs, sharing data used bu notebook",function,neutral
+640,Better collaboration tools,time,positive
+641, ,function,neutral
+642,"- BLD: Makefile: runipy ##1 - UBY: notebook: a keyboard shortcut for (clear all, restart) - UBY: notebook: current keyboard shortcuts in menu items ## - ENH: notebook: git save & shortcut ## - ENH: notebook: git branch list & DAG viewer  .. tests:  * https://westurner.org/wiki/awesome-python-testing#workflow-evolution  https://westurner.org/wiki/awesome-python-testing#ipython  IPython Notebook⬅  * https://github.com/westurner/notebooks/blob/gh-pages/Makefile * https://pypi.python.org/pypi/runipy  ",function,positive
+643, ,function,neutral
+644,Better support of parallel computation.,performance,positive
+645,Kernels' interaction like Beaker Notebook,function,positive
+646,I dislike notebooks.  Prefer RStudio.,function,neutral
+647,"Nothing, I use the Jupyter notebook religiously every day to organize, perform, and document my research.",function,neutral
+648,a more flexible editing toolset included in the notebook workflow:  - bibliographies tools - figure numbering - be more like a latex workflow,function,positive
+649,"Too difficult to start a new session (open terminal, type ipython notebook, create a new notebook). It is not as straightforward as using a usual text script. There should be  maybe an easy way to manage all the ipython sessions, like in a try icon where they could be easily closed or initialised.  Not easy to customise.  Needs More documentation about customisation of document formats when exporting the notebook, e.g. use custom LaTeX preambles, etc  Difficult to navigate in big notebooks, it would be nice to have an index menu or something. The html tags are not very tidy  When writing large pieces of code, it can look messy  It would be nice to have PEP8 or flakes to popularise good coding practice",function,negative
+650,Difficulty with NBconvert and generation of static versions of document created,function,negative
+651,Lack of proper equation numbering and referencing  (same for table of contents etc). ,design,neutral
+652,Really just lack of editing flexibililty (multiple keybinding supports). Most features I needed were recently added (multi-cell copy and paste). ,function,neutral
+653,Multiple kernels in single notebook. Data wrangling with Python straight to visualisation with JS would be the ideal.,function,positive
+654,"* non-triviality of sharing of notebooks * exchange, synergy between JupyterHub/server-based versus local/single-user installation * sparse documentation on more advanced features (extensions, configuration, ...)",function,positive
+655,gui interface and power features of vim editor,design,neutral
+656,Adding cells with keyboard shortcuts,design,neutral
+657,Version control and scripting.,function,neutral
+658,"More power to the text file editor, such: - ES6 syntax check/highlight - linting and introspection - git integration",design,neutral
+659,Collaboration,time,neutral
+660,Few people in my workplace using them. ,function,neutral
+661,I wish it were easier to merge cells. I wish there were built-in tools that made it easier to go from notebook to command line script or Python module.,function,positive
+662,Compliance with corporate IT policies.,function,neutral
+663,"Debugging, profiling",function,neutral
+664,"Not easy to directly export Jupyter Notebooks in formats suitable for insertion into a report/paper, e.g. LaTeX.  Would need optional suppression of code cells, code cell output, display of variables in markdown cells,  etc.",function,negative
+665,I do use a text editor to develop Python modules that need to be reused etc. There's the tool development part of my work where the notebook is a hindrance ,function,neutral
+666,That other people don't use it as well. That it's not that easy to collaborate.,function,positive
+667,"Lack of graphical diff'ing of notebooks for use with source control e.g git, GitHub.",function,negative
+668,Vim-like editing capabilities.,function,positive
+669,"looks great for exploratory work and/or self-contained tasks, but it's not a development environment",performance,positive
+670,"Ease of integration into command line tools, lack of good unit testing/CI solutions. ",function,positive
+671,"Utility of the notebook interface. Cell grouping, folding and other manipulation, 3D graphics in notebook, full paper writing workflow. It is very close to perfect.",function,neutral
+672,Habit. To used to ipython,function,neutral
+673,- An easily launched text-editor from the notebook code cells themselves.,function,neutral
+674,switching kernels without closing them.,function,neutral
+675,I still use MATLAB for a lot of algorithm design work,design,positive
+676,I am administrating it not using it for data,function,neutral
+677,Knowledge management with notebooks is a disaster Package management is difficult Hard to port over other analysis Hard to manage data,performance,negative
+678,Limited (multi) cell editing functionalities.,function,negative
+679,"I don't like to write/edit in the browser. I'd like to edit the notebook on Emacs, where I edit my other Python files. There's an Emacs plugin for that but it's far from perfect.",design,positive
+680,"Full undo history, export options",design,neutral
+681,"It is a regular part of my workflow already :)   Export to Powerpoint (slides), export to word/openoffice format... (unfortunately :) )  ",design,negative
+682,Better text editing.,design,positive
+683,The need to switch between these three:  (1) ipython in the terminal or qt console for fast start and oneliner work  (2) the Notebook  (3) an IDE/Editor for writing modules and packages.,function,positive
+684,Collaborative notebooks easy to use and setup Widgets for MATLAB Slideshow mode by default,function,positive
+685,"I'd like to have more options to manipulate the cells, and good documentation to know about them, though I'm more than happy with the Jupyter Notebook.",function,positive
+686,No easy git integration extension,performance,positive
+687,Lack of a debugger,function,negative
+688,"I'm a keyboard guy and Jupyter has a mostly mouse oriented interface.  It's a bit of a bother to ssh in, run the server, and then open a tab. I guess I should run a server and leave it running.",function,negative
+689,There is not a workspace,function,neutral
+690,version tracking in git,function,neutral
+691,My regular workflow doesn't include interactive software development. I use IDEs and command line execution.,function,neutral
+692,"Multi-user collaboration in JupyterHub Stable ipywidgets Docker containers per kernel (doesn't hinder, but would improve maintainability)",function,positive
+693,"Lack of integration integration with IDE and a more progamming intensive task, not so much exploration .   Lack of view similar to Rstudio is a problem too",performance,negative
+694,"Better keyboard shortcuts. For some reason, some of the existing ones don't seem to work. Also, I would really appreciate a more minimal design or serious built in theming that allow it to compete with editors like sublime text or atom in terms of productivity.",design,positive
+695,"Collaborating on notebooks is hard. Right now I am sharing with Github but the line-by-line diffing makes it hard, and there's overhead with all collaborators pushing and pulling. Something closer to a Google doc would be nice.",function,neutral
+696,I dislike the interface.,function,negative
+697,"I don't use python very much, and support for other kernels (e.g., scala) could be better.",function,positive
+698,"Debugging functionality, version control for notebooks, UI",function,neutral
+699,"- Lack of diff/merge capability  Other areas are largely dealing with text generation: - I *think* ways to split/link notebooks would help with looonng and spaghetti-like notebooks (but I'm not sure)  - I'm just not a fan of browser-based editing, but this is not a top priority.  - I'm a huge fan of org-mode/latex and like the ""automatic"" numbering and cross-reference abilities.",function,neutral
+700,remembering how to get it setup,function,neutral
+701,"Inability to easily publish to common platforms like wordpress that aren't based around websites generated by code. Still a bit of a hassle to get a remote notebook running well just for personal use (e.g., I don't want to have to generate hashes etc, but for now SSH tunneling is working fine for me). Some less-sexy features missing like copy/pasting multiple cells at once etc.",function,positive
+702,"Nothing, really. It works great.",function,positive
+703,Text editing capabilities within the notebook cells is very limited. I am currently following these projects in the hopes of a viable workaround: https://github.com/jupyter/atom-notebook https://github.com/Cacodaimon/GhostText-for-Atom,function,neutral
+704,Find a way to manage proliferation. A nice way to order them.,function,positive
+705,"lack of debug support when writing huge pieces of code such as loops, functions...",function,neutral
+706,It can't be used without a browser.,design,neutral
+707,"I tried Jupyter for making some lecture slides for teaching statistical methods in Python. My main grievances were the lack of more advanced (code-) editor features like incremental searching and an outline view for better navigation (during presentation and writing). I am aware of plugins, which I unfortunately could not to get work seamlessly (in Anaconda).   One thing which lets me prefer Spyder for my daily work is its context sensitive help, where or each command you type in a separate window a nicely typeset help text appears automatically. When using Scipy extensively, this is a real help.   For casual users like me, the number of key strokes and commands one needs to remember for efficient work is a burden. Extended tool bars (especially for Markdown) could flatten the learning curve quite a bit.   Furthermore, typesetting advanced math is a bit cumbersome (especially when looking for typos which prevent rendering, integrating your own macros, equation cross referencing, etc). A better integration could replace LaTeX for many documentation tasks (as in technical reports).",function,positive
+708,Having to work with it mainly from either the command line or from the Anaconda launcher. I would prefer to have a native Mac app that will open and manage Jupyter notebooks from anywhere on my machine. With the command line for example I have to first navigate to the directory where my notebooks are located -- I have a lot of directories and I don't want to have to start up a new notebook client for every place where they are stored. ,function,positive
+709,Notebook offers only global space. It is like single python module. And most of my code consists of several modules,function,positive
+710,"For scripts that run in a pipeline, would like to parameterize them using command line arguments. Don't know if it's possible.",function,positive
+711,The difficulty of setting it up for a multiuser classroom environment. The difficulty in setting up a widget framework for interactive demos for students,function,negative
+712,missing search and replace collaborators not using it,function,neutral
+713,vim shortcuts use emacs as frontend (incl plots and interactive widgets),design,negative
+714,I write libraries which require a full-fledged IDE.,function,neutral
+715,Text editing capabilities within the notebook cells is very limited. I am currently following these projects in the hopes of a viable workaround: https://github.com/jupyter/atom-notebook https://github.com/Cacodaimon/GhostText-for-Atom,function,neutral
+716,"Inability to easily navigate within modules/structured code directories, so that I can develop my code simultaneously as a package/module and within a notebook. Prototyping in the notebook is great, but then making sure everything works appropriately when outside of the notebook environment is more difficult without a lot more infrastructure. Furthermore, once it is ported to an external module, its essentially impossible to either bring the code back into the notebook efficiently (i.e., not just copying and pasting into cells) and or to maintain a coherent version control stream for the changes then made in the notebook. So currently software development in a notebook to external module is a 1-way street, and not a particularly easy one to navigate.   Also, inconsistency in relative import statements make developing software packages in a notebook/module. Given the portable nature of the notebook, it's nice to be able to work from the same source files on a variety of computers. But absolute paths can't be used across machines (unless they follow the same convention) and its not clear how one would specify the absolute path relative to the location of the notebook server and vs. notebook itself.  Editing documentation in the notebook (especially with executable examples) would make it easier to jump between source code and explicit documentation. Linking a particular cell out to a particular docstring for a particular function/class/method would be great.",function,positive
+717,Unfamiliarity with Python.,function,neutral
+718,"more full featured ide feature (find replace, refactor, code folding/hiding, etc)    reusing code easily between notebooks",function,neutral
+719,"In my university, Matlab is the standard. So often I have to use that ... ",design,neutral
+720,Deploying a secure shared notebook server to facilitate easy sharing of notebooks with less computer-savvy colleagues.,function,positive
+721,Collaborators that I haven't been able to indoctrinate yet.,function,negative
+722,More and clear documentation would be nice.,function,positive
+723,Version control / diffing version control between notebooks. ,function,neutral
+724,Support for multiple programming kernels in the same notebook. ,performance,positive
+725,"Better editor in browser; better dashboard ---need to have a real file/folder manager; multi-file notebooks (to contain related files); better pdb (command completion, history)",function,positive
+726,The fact that I run windows and so don't have a reliable bash kernel (I've used bash_metakernel with cygwin but it's not so reliable - prompt gets out of sync).  In fact I've promoted using Jupyter for documenting/demonstrating command-line stuff and I'd be ready to go if *I ran linux all the time*. I don't for Corporate reasons.  Although my laptop has 32G it overheats and the fan is noisy ... so I tend not to run under VirtualBox as much as I'd like.  Hope all that makes sense !!,function,positive
+727,Automatic word completion,function,neutral
+728,"Complicated startup of the server (especially when my notebooks are in a directory that is not the standard base notebook dricetory). Mathematica, in contrast,  just starts up and can use a notebook from everywhere.",function,negative
+729,"* The ""impedance mismatch"" between Jupyter Notebooks and version control systems like git.  * The lack of high-level document refactoring, e.g. moving around entire sections.  (The Calico Tools plugin makes this more bearable.)",function,negative
+730,Lack of variable persistence,performance,negative
+731,Miss basic functionality that was easy to access when working with ipynb notebooks in Enthought Canopy,function,neutral
+732,"Just other duties,  but I'm planning to start use it on a daily basis",function,neutral
+733,"It's actually my main tool, so not a whole lot to do to have it used more",function,neutral
+734,"Text editing. I often fall back to other options like Sublime Text, wishing that Jupyter had some of that functionality.",function,positive
+735,"I use it extensively for python, no issues. For Julia, R, and Ruby, though, things are still a bit glitchy.",function,negative
+736,-Would like to have a code editor and terminal in the same window as the notebook cells,function,positive
+737,"Inexpensive, remotely hosted options for running courses that use jupyter notebooks.",function,positive
+738,"Ease of version control with gift hub, sharing with non-technical users, collapsible input boxes to make it easier for non-technical personnel to understand, syntax highlighting in JavaScript cells, easy debugging, ease of implementing in server side CRON jobs etc.   ",function,positive
+739,- Multi-panel user interface similar to spyder/matlab with embedded ipython console.  - Free-form cell editing similar to spyder/matlab (e.g. to move many cells at the same time)  - Dead easy debugging support  - Maybe support for profiling code,function,positive
+740,"The UI takes a lot of vertical space, and not a lot of horizontal one (Most Displays are in the 16:9 aspect ratio ). Multiple input columns (or input left output right) and a ""minimap"" would be nice.   Data import into Python  Data exploration (bokeh/matplotlib is just not as interactive compared to matlab plot interface)",function,positive
+741,"Integration with Git, or at least some documentation on ho best to use version control with Jupyter.",function,positive
+742,Work schedule. Nothing to do with Jupyter itself.,function,positive
+743,Ipython on command line is more familiar. ,function,neutral
+744,The acceptance of it as the main tool for exploratory data analysis by colleagues who are less technical and continue to use excel and tableau. They are deterred by learning curve of Python and its libraries - which isn't really Jupypters fault.  ,function,neutral
+745,Not enough people use it around me.,function,negative
+746,"Searching in the notebooks is a pain because files can not just be opened through a dedicated viewer (on desktop os), which makes looking for that specific graph from 2 months ago hard. (Ofentimes just seeing it is enough to know which one I was searching for)",design,neutral
+747,"difficult to manage code cells, rearrange them",function,negative
+748,"Crappy editing experience. After being used to working exclusively in Vim/Emacs, developing in a text area in a browser just doesn't feel right.",design,neutral
+749,"Exporting notebooks to other formats, such as pdf, is not working for me.  BTW I have an Anaconda install of Python 2.7 running on Windows 10.",function,neutral
+750,"Slow. Doesn't handle large datasets well - crashes, often have to rerun from the top. ",function,neutral
+751,we need a way to hide the code to create a better document like in Zeppelin,function,positive
+752,"mostly support for collaboration: multi-user server, difficult diff of notebooks",function,neutral
+753,"Difficulty sharing results with collaborators who don't use Jupyter. HTML output works alright, but since my notebooks are math heavy they take quite a long time to load for collaborators.",function,neutral
+754,No strong complaints at the moment.,function,neutral
+755,"Text-block weakness: - absence of LaTeX-like cross-referencing and automatic (section) numbering facility  Code-block weaknesses: - no way to ""tangle"" code blocks to make pure source code files (afaik) - no easy, clear or consistent way to automatically break lines at a specified number of char's - no code folding - difficulty in using Javascript to do special visualizations, for example with D3.js",function,negative
+756,Would be great to have more advanced editor features for the cells. Would be great to have an easy way to switch between scripts and interactive sessions (a bit like in RStudio where you can execute parts of a script).,function,positive
+757,- Not very handy to inspect large dataframes (spyder variable explorer is a better tool for that purpose) - Cannot use git to do version control. - I mostly del with a lots of files of code and Jupyter is just form interactive exploration or demos,function,positive
+758,I still use the Qt backend sometimes with matplotlib since I find the notebook backend to be awkward to use sometimes.,function,negative
+759,Having an AWK specific version would be useful instead of having to use the bash support.  https://github.com/tonycasanova/Jupyter/blob/master/AWK_BasicExample_1_A.ipynb,function,positive
+760,"Single window of browser Lack of integration with github Lots of my work borders on BI, for which BI tools are really better suited, e.g. drill down into datasets ",performance,positive
+761,Right tool for the job.,function,positive
